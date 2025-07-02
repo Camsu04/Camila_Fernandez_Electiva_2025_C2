@@ -1470,7 +1470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Riqi_Parts:SOIC127P600X172-14N"
+		(property "Footprint" "Package_TO_SOT_SMD:Infineon_PG-TO-220-7Lead_TabPin8"
 			(at 88.9 59.69 0)
 			(effects
 				(font
