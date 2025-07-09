@@ -623,11 +623,23 @@
     ],
     [
       "43a112db-786f-42fb-8db3-67286b51ed8f",
-      "RS485_INTERFACE"
+      "RS485_INTERFAZ"
     ],
     [
       "86b88fb6-54fe-4cca-9b3c-121214f029ac",
-      "RELAY_INTERFACE"
+      "RELAY_INTERFAZ"
+    ],
+    [
+      "d622ea12-fe2d-4cf1-abd0-941db96d5f54",
+      "NPN_ENTRADA_Mod"
+    ],
+    [
+      "a4009674-06bb-4fe0-bcda-ed9945d86716",
+      "mA_INTERFAZ_SALIDA"
+    ],
+    [
+      "89d29688-da71-49bb-a25b-d6f160f4d0d4",
+      "mA_INTERFAZ_ENTRADA"
     ]
   ],
   "text_variables": {}
