@@ -194,7 +194,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "026b2a40-ba2d-49a0-9b18-d3b431be8fb0")
-		(at 142 90.5)
+		(at 141 110.0175)
 		(descr "Terminal Block 4Ucon ItemNo. 20001, 4 pins, pitch 3.5mm, size 14.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/20001.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 20001 pitch 3.5mm size 14.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J3"
@@ -1097,11 +1097,11 @@
 	(footprint "PCM_Espressif:ESP32-S3-WROOM-1"
 		(layer "F.Cu")
 		(uuid "05094382-fa9a-4bd8-95a0-de6cf9fe2904")
-		(at 138.5 64.5)
+		(at 120.5 64.25 90)
 		(descr "ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.")
 		(tags "esp32-s3")
 		(property "Reference" "U1"
-			(at 0 -17.05 0)
+			(at -0.25 -20.0675 90)
 			(layer "F.SilkS")
 			(uuid "b0d664f9-0e8c-403b-944c-7c923b9e9857")
 			(effects
@@ -1112,7 +1112,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 0 12 0)
+			(at 0 12 90)
 			(layer "F.Fab")
 			(uuid "848796c3-833d-4d8c-bf7c-e6b755708243")
 			(effects
@@ -1123,7 +1123,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8c49f268-86a0-4930-bb1a-1ba78d06b11f")
@@ -1135,7 +1135,7 @@
 			)
 		)
 		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d9334ba6-0a37-41b7-b7b3-fa3a1b604d83")
@@ -1151,14 +1151,14 @@
 		(sheetfile "NIVARA_BOARD.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -9 -15.75)
-			(end -9 -9)
+			(start 9 -15.75)
+			(end 9 -9)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a7cfeae3-c6cb-4f1c-94b8-b7b11cdea5cf")
+			(uuid "ad8be13b-c2cb-46e1-85f0-4f88837332fb")
 		)
 		(fp_line
 			(start -9 -15.75)
@@ -1171,34 +1171,14 @@
 			(uuid "2d240a36-0229-44c5-a38e-8557e76459af")
 		)
 		(fp_line
-			(start -9 9)
-			(end -9 9.75)
+			(start -9 -15.75)
+			(end -9 -9)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f409decd-5918-404b-8cfa-f419e1c21ab5")
-		)
-		(fp_line
-			(start -9 9.75)
-			(end -8 9.75)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "de4bc4a7-2281-4012-a0c5-9054bb975d8d")
-		)
-		(fp_line
-			(start 9 -15.75)
-			(end 9 -9)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ad8be13b-c2cb-46e1-85f0-4f88837332fb")
+			(uuid "a7cfeae3-c6cb-4f1c-94b8-b7b11cdea5cf")
 		)
 		(fp_line
 			(start 9 -9.81)
@@ -1221,6 +1201,16 @@
 			(uuid "1f293c22-29b3-4d00-b904-f866f2cd6947")
 		)
 		(fp_line
+			(start -9 9)
+			(end -9 9.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f409decd-5918-404b-8cfa-f419e1c21ab5")
+		)
+		(fp_line
 			(start 9 9.75)
 			(end 8 9.75)
 			(stroke
@@ -1229,6 +1219,26 @@
 			)
 			(layer "F.SilkS")
 			(uuid "1dfd2be7-b746-434d-8212-444dafdb1d68")
+		)
+		(fp_line
+			(start -9 9.75)
+			(end -8 9.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "de4bc4a7-2281-4012-a0c5-9054bb975d8d")
+		)
+		(fp_line
+			(start 9 -15.75)
+			(end 9 9.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "adf9cf12-820a-4b34-817c-24dd6a6300e9")
 		)
 		(fp_line
 			(start -9 -15.75)
@@ -1251,26 +1261,6 @@
 			(uuid "fcef5292-65cc-4b0d-a135-5638d8f9acb7")
 		)
 		(fp_line
-			(start -9 9.75)
-			(end -9 -15.75)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Eco2.User")
-			(uuid "288bfe8d-f93a-43bb-b3f3-078ff5e1f3f2")
-		)
-		(fp_line
-			(start 9 -15.75)
-			(end 9 9.75)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Eco2.User")
-			(uuid "adf9cf12-820a-4b34-817c-24dd6a6300e9")
-		)
-		(fp_line
 			(start 9 9.75)
 			(end -9 9.75)
 			(stroke
@@ -1281,24 +1271,14 @@
 			(uuid "69627b01-d52b-4848-a85f-54c7f8d21a93")
 		)
 		(fp_line
-			(start -9.8 -16.05)
-			(end -9.8 10.55)
+			(start -9 9.75)
+			(end -9 -15.75)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "30366e7e-4f93-4d4a-9487-833d40b98d7d")
-		)
-		(fp_line
-			(start -9.8 10.55)
-			(end 9.8 10.55)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f0d5951e-24e2-4c83-92c5-7fa32e95afca")
+			(layer "Eco2.User")
+			(uuid "288bfe8d-f93a-43bb-b3f3-078ff5e1f3f2")
 		)
 		(fp_line
 			(start 9.8 -16.05)
@@ -1320,8 +1300,28 @@
 			(layer "F.CrtYd")
 			(uuid "25e57077-d124-4db6-9ac6-3e275aaabfca")
 		)
+		(fp_line
+			(start -9.8 -16.05)
+			(end -9.8 10.55)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "30366e7e-4f93-4d4a-9487-833d40b98d7d")
+		)
+		(fp_line
+			(start -9.8 10.55)
+			(end 9.8 10.55)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f0d5951e-24e2-4c83-92c5-7fa32e95afca")
+		)
 		(fp_text user "Antenna Area"
-			(at 0 -12.75 0)
+			(at 0 -12.75 90)
 			(layer "F.SilkS")
 			(uuid "3a03379b-12b6-430f-82b0-d88a6304a1b4")
 			(effects
@@ -1332,7 +1332,7 @@
 			)
 		)
 		(fp_text user "Antenna Area"
-			(at 0 -12.75 0)
+			(at 0 -12.75 90)
 			(layer "Eco2.User")
 			(uuid "0c03fa15-f834-407b-b951-47cc6f7695c8")
 			(effects
@@ -1343,7 +1343,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "4f36839f-5c82-4d47-8ced-52c3219ae96c")
 			(effects
@@ -1354,7 +1354,7 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -8.75 -8.26)
+			(at -8.75 -8.26 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1363,7 +1363,7 @@
 			(uuid "a50d469c-8b60-4691-a098-ca301bad4755")
 		)
 		(pad "2" smd rect
-			(at -8.75 -6.99)
+			(at -8.75 -6.99 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 2 "+3.3V")
@@ -1372,7 +1372,7 @@
 			(uuid "4c96811b-4f5d-4a90-a1e5-2cde17db0289")
 		)
 		(pad "3" smd rect
-			(at -8.75 -5.72)
+			(at -8.75 -5.72 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 16 "Net-(U1-EN)")
@@ -1381,7 +1381,7 @@
 			(uuid "53849c83-f66f-43f3-a46e-1d5a75b35ea2")
 		)
 		(pad "4" smd rect
-			(at -8.75 -4.45)
+			(at -8.75 -4.45 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 37 "unconnected-(U1-GPIO4{slash}TOUCH4{slash}ADC1_CH3-Pad4)")
@@ -1390,7 +1390,7 @@
 			(uuid "eed342aa-bd8f-45e6-b86a-32f94fc7e4fc")
 		)
 		(pad "5" smd rect
-			(at -8.75 -3.18)
+			(at -8.75 -3.18 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 10 "unconnected-(U1-GPIO5{slash}TOUCH5{slash}ADC1_CH4-Pad5)")
@@ -1399,7 +1399,7 @@
 			(uuid "21214a1c-2914-4f91-beaa-e34557e7a7a7")
 		)
 		(pad "6" smd rect
-			(at -8.75 -1.91)
+			(at -8.75 -1.91 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 5 "unconnected-(U1-GPIO6{slash}TOUCH6{slash}ADC1_CH5-Pad6)")
@@ -1408,7 +1408,7 @@
 			(uuid "0474b6a6-47dc-4adf-b01b-5f03b2a4f94c")
 		)
 		(pad "7" smd rect
-			(at -8.75 -0.64)
+			(at -8.75 -0.64 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 19 "unconnected-(U1-GPIO7{slash}TOUCH7{slash}ADC1_CH6-Pad7)")
@@ -1417,7 +1417,7 @@
 			(uuid "6f4ba7c6-0a2c-4737-a1e9-2cdef5542d6b")
 		)
 		(pad "8" smd rect
-			(at -8.75 0.63)
+			(at -8.75 0.63 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 12 "unconnected-(U1-GPIO15{slash}U0RTS{slash}ADC2_CH4{slash}XTAL_32K_P-Pad8)")
@@ -1426,7 +1426,7 @@
 			(uuid "402320e0-3fc5-4f12-9ddf-2cd12d8ec2a6")
 		)
 		(pad "9" smd rect
-			(at -8.75 1.9)
+			(at -8.75 1.9 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 7 "unconnected-(U1-GPIO16{slash}U0CTS{slash}ADC2_CH5{slash}XTAL_32K_N-Pad9)")
@@ -1435,7 +1435,7 @@
 			(uuid "08820cf0-e7ef-45c7-93a0-830be4d3ef64")
 		)
 		(pad "10" smd rect
-			(at -8.75 3.17)
+			(at -8.75 3.17 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 36 "unconnected-(U1-GPIO17{slash}U1TXD{slash}ADC2_CH6-Pad10)")
@@ -1444,7 +1444,7 @@
 			(uuid "eb0a7fec-c0cd-4bc2-90b0-f1a45554e2df")
 		)
 		(pad "11" smd rect
-			(at -8.75 4.44)
+			(at -8.75 4.44 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 17 "unconnected-(U1-GPIO18{slash}U1RXD{slash}ADC2_CH7{slash}CLK_OUT3-Pad11)")
@@ -1453,7 +1453,7 @@
 			(uuid "57d2c92d-0ac2-40e5-ac37-4c0d6f2cc715")
 		)
 		(pad "12" smd rect
-			(at -8.75 5.71)
+			(at -8.75 5.71 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 22 "unconnected-(U1-GPIO8{slash}TOUCH8{slash}ADC1_CH7{slash}SUBSPICS1-Pad12)")
@@ -1462,7 +1462,7 @@
 			(uuid "80196dac-d68a-4d37-a0d2-bd3f6dd07912")
 		)
 		(pad "13" smd rect
-			(at -8.75 6.98)
+			(at -8.75 6.98 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 38 "unconnected-(U1-GPIO19{slash}U1RTS{slash}ADC2_CH8{slash}CLK_OUT2{slash}USB_D--Pad13)")
@@ -1471,7 +1471,7 @@
 			(uuid "f1815c9d-7d4c-47d7-b3e7-f648a2034a5e")
 		)
 		(pad "14" smd rect
-			(at -8.75 8.25)
+			(at -8.75 8.25 90)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 33 "unconnected-(U1-GPIO20{slash}U1CTS{slash}ADC2_CH9{slash}CLK_OUT1{slash}USB_D+-Pad14)")
@@ -1480,7 +1480,7 @@
 			(uuid "c4816741-f01e-4c0b-b4ac-35a47621dd6b")
 		)
 		(pad "15" smd rect
-			(at -6.985 9.5 90)
+			(at -6.985 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 108 "/NIVARA_BOARD/RELAY_INTERFAZ/RL2_EN")
@@ -1489,7 +1489,7 @@
 			(uuid "88128e65-5edc-4ebf-b0d7-e88f03413e20")
 		)
 		(pad "16" smd rect
-			(at -5.715 9.5 90)
+			(at -5.715 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 32 "unconnected-(U1-GPIO46-Pad16)")
@@ -1498,7 +1498,7 @@
 			(uuid "bddd88e8-5a7b-46f6-ac3e-107925a8d761")
 		)
 		(pad "17" smd rect
-			(at -4.445 9.5 90)
+			(at -4.445 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 24 "unconnected-(U1-GPIO9{slash}TOUCH9{slash}ADC1_CH8{slash}FSPIHD{slash}SUBSPIHD-Pad17)")
@@ -1507,7 +1507,7 @@
 			(uuid "8b90deb6-3a6e-4098-b72c-2abdba631a7e")
 		)
 		(pad "18" smd rect
-			(at -3.175 9.5 90)
+			(at -3.175 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 25 "unconnected-(U1-GPIO10{slash}TOUCH10{slash}ADC1_CH9{slash}FSPICS0{slash}FSPIIO4{slash}SUBSPICS0-Pad18)")
@@ -1516,7 +1516,7 @@
 			(uuid "952334b8-d8fb-4c8d-9ff0-f2e323cf3c6e")
 		)
 		(pad "19" smd rect
-			(at -1.905 9.5 90)
+			(at -1.905 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 9 "unconnected-(U1-GPIO11{slash}TOUCH11{slash}ADC2_CH0{slash}FSPID{slash}FSPIIO5{slash}SUBSPID-Pad19)")
@@ -1525,7 +1525,7 @@
 			(uuid "0ecb0c3b-e448-49c4-add7-1e9b021ec520")
 		)
 		(pad "20" smd rect
-			(at -0.635 9.5 90)
+			(at -0.635 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 35 "unconnected-(U1-GPIO12{slash}TOUCH12{slash}ADC2_CH1{slash}FSPICLK{slash}FSPIIO6{slash}SUBSPICLK-Pad20)")
@@ -1534,7 +1534,7 @@
 			(uuid "e776a6d4-719a-4b71-8d94-815bd5372df7")
 		)
 		(pad "21" smd rect
-			(at 0.635 9.5 90)
+			(at 0.635 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 31 "unconnected-(U1-GPIO13{slash}TOUCH13{slash}ADC2_CH2{slash}FSPIQ{slash}FSPIIO7{slash}SUBSPIQ-Pad21)")
@@ -1543,7 +1543,7 @@
 			(uuid "b5fadd7c-f625-4b87-bf47-15b4ca2a4581")
 		)
 		(pad "22" smd rect
-			(at 1.905 9.5 90)
+			(at 1.905 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 21 "unconnected-(U1-GPIO14{slash}TOUCH14{slash}ADC2_CH3{slash}FSPIWP{slash}FSPIDQS{slash}SUBSPIWP-Pad22)")
@@ -1552,7 +1552,7 @@
 			(uuid "780e5e48-65fa-4c82-afcc-5601100dcb98")
 		)
 		(pad "23" smd rect
-			(at 3.175 9.5 90)
+			(at 3.175 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "unconnected-(U1-GPIO21-Pad23)")
@@ -1561,7 +1561,7 @@
 			(uuid "9d258b0a-acf5-42d6-8be2-4e15d2403261")
 		)
 		(pad "24" smd rect
-			(at 4.445 9.5 90)
+			(at 4.445 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 11 "unconnected-(U1-GPIO47{slash}SPICLK_P{slash}SUBSPICLK_P_DIFF-Pad24)")
@@ -1570,7 +1570,7 @@
 			(uuid "291c016b-179c-4b73-b656-802206f7e9e3")
 		)
 		(pad "25" smd rect
-			(at 5.715 9.5 90)
+			(at 5.715 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 20 "unconnected-(U1-GPIO48{slash}SPICLK_N{slash}SUBSPICLK_N_DIFF-Pad25)")
@@ -1579,7 +1579,7 @@
 			(uuid "7431588d-2fa6-4038-a265-db5c7e7e5d84")
 		)
 		(pad "26" smd rect
-			(at 6.985 9.5 90)
+			(at 6.985 9.5 180)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 3 "unconnected-(U1-GPIO45-Pad26)")
@@ -1588,7 +1588,7 @@
 			(uuid "01c22278-4bb8-41e0-99bc-7179f8b94fff")
 		)
 		(pad "27" smd rect
-			(at 8.75 8.25 180)
+			(at 8.75 8.25 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 4 "unconnected-(U1-GPIO0{slash}BOOT-Pad27)")
@@ -1597,7 +1597,7 @@
 			(uuid "043c999f-094c-44ce-a308-a3f5f80a6fc6")
 		)
 		(pad "28" smd rect
-			(at 8.75 6.98 180)
+			(at 8.75 6.98 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 14 "unconnected-(U1-SPIIO6{slash}GPIO35{slash}FSPID{slash}SUBSPID-Pad28)")
@@ -1606,7 +1606,7 @@
 			(uuid "480abcb3-b996-42be-9b45-02074075489c")
 		)
 		(pad "29" smd rect
-			(at 8.75 5.71 180)
+			(at 8.75 5.71 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 6 "unconnected-(U1-SPIIO7{slash}GPIO36{slash}FSPICLK{slash}SUBSPICLK-Pad29)")
@@ -1615,7 +1615,7 @@
 			(uuid "07d44b89-595c-4e63-ac69-3668864da3f9")
 		)
 		(pad "30" smd rect
-			(at 8.75 4.44 180)
+			(at 8.75 4.44 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 34 "unconnected-(U1-SPIDQS{slash}GPIO37{slash}FSPIQ{slash}SUBSPIQ-Pad30)")
@@ -1624,7 +1624,7 @@
 			(uuid "d403e8dd-1529-4785-a87b-32c1cf55a266")
 		)
 		(pad "31" smd rect
-			(at 8.75 3.17 180)
+			(at 8.75 3.17 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "unconnected-(U1-GPIO38{slash}FSPIWP{slash}SUBSPIWP-Pad31)")
@@ -1633,7 +1633,7 @@
 			(uuid "abbe8afa-89d8-4475-8079-9f4f9f6a5d79")
 		)
 		(pad "32" smd rect
-			(at 8.75 1.9 180)
+			(at 8.75 1.9 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 30 "unconnected-(U1-MTCK{slash}GPIO39{slash}CLK_OUT3{slash}SUBSPICS1-Pad32)")
@@ -1642,7 +1642,7 @@
 			(uuid "b47adb21-5de4-440b-9425-7e3a32dc2eff")
 		)
 		(pad "33" smd rect
-			(at 8.75 0.63 180)
+			(at 8.75 0.63 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 28 "unconnected-(U1-MTDO{slash}GPIO40{slash}CLK_OUT2-Pad33)")
@@ -1651,7 +1651,7 @@
 			(uuid "ab89bef9-f53d-42f2-b34e-14d153f3047c")
 		)
 		(pad "34" smd rect
-			(at 8.75 -0.64 180)
+			(at 8.75 -0.64 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 13 "unconnected-(U1-MTDI{slash}GPIO41{slash}CLK_OUT1-Pad34)")
@@ -1660,7 +1660,7 @@
 			(uuid "47adf0f0-9b6c-4739-a8fc-dc86cfc7b74d")
 		)
 		(pad "35" smd rect
-			(at 8.75 -1.91 180)
+			(at 8.75 -1.91 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 26 "unconnected-(U1-MTMS{slash}GPIO42-Pad35)")
@@ -1669,7 +1669,7 @@
 			(uuid "9c8e47e9-b5b5-4afd-82f2-6b2badf087f5")
 		)
 		(pad "36" smd rect
-			(at 8.75 -3.18 180)
+			(at 8.75 -3.18 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 109 "/NIVARA_BOARD/RS485_INTERFAZ/UART_RX")
@@ -1678,7 +1678,7 @@
 			(uuid "c57255e6-d784-42b9-ae5f-06a09909441e")
 		)
 		(pad "37" smd rect
-			(at 8.75 -4.45 180)
+			(at 8.75 -4.45 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 110 "/NIVARA_BOARD/RS485_INTERFAZ/UART_TX")
@@ -1687,7 +1687,7 @@
 			(uuid "f0b74b82-adac-41b7-8598-74ca33a1fe01")
 		)
 		(pad "38" smd rect
-			(at 8.75 -5.72 180)
+			(at 8.75 -5.72 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 107 "/NIVARA_BOARD/RELAY_INTERFAZ/RL1_EN")
@@ -1696,7 +1696,7 @@
 			(uuid "6b407b37-69e9-4684-be43-acc1e711f529")
 		)
 		(pad "39" smd rect
-			(at 8.75 -6.99 180)
+			(at 8.75 -6.99 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 59 "/NIVARA_BOARD/mA_AINPUT")
@@ -1705,7 +1705,7 @@
 			(uuid "51914322-f21a-4705-8002-bb30f51ddeba")
 		)
 		(pad "40" smd rect
-			(at 8.75 -8.26 180)
+			(at 8.75 -8.26 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1714,7 +1714,7 @@
 			(uuid "d1f31e7d-3c23-49a2-962f-81aa158cec8e")
 		)
 		(pad "41" smd rect
-			(at -2.9 -1.94 180)
+			(at -2.9 -1.94 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1723,7 +1723,7 @@
 			(uuid "1562e448-2d15-466a-9bab-6e73dbba0a86")
 		)
 		(pad "41" smd rect
-			(at -2.9 -0.54 180)
+			(at -2.9 -0.54 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1732,7 +1732,7 @@
 			(uuid "3400f11d-791a-4063-b8ff-aed0ac14cbcb")
 		)
 		(pad "41" smd rect
-			(at -2.9 0.86 180)
+			(at -2.9 0.86 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1741,7 +1741,7 @@
 			(uuid "2312858f-72a0-49d0-8dc6-6299e455e477")
 		)
 		(pad "41" smd rect
-			(at -2.9 0.86 180)
+			(at -2.9 0.86 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1750,7 +1750,7 @@
 			(uuid "ca48e9b5-43a4-4e02-8f0c-00c8f845e344")
 		)
 		(pad "41" smd rect
-			(at -1.5 -1.94 180)
+			(at -1.5 -1.94 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1759,7 +1759,7 @@
 			(uuid "171b4afd-962b-4aa9-b9c7-826972342c0b")
 		)
 		(pad "41" smd rect
-			(at -1.5 -1.94 180)
+			(at -1.5 -1.94 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1768,7 +1768,7 @@
 			(uuid "8afb979a-fac3-4945-928c-60f7c8b81fb8")
 		)
 		(pad "41" smd rect
-			(at -1.5 -0.54 180)
+			(at -1.5 -0.54 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1777,7 +1777,7 @@
 			(uuid "42b81f88-2d59-4705-9395-f3bc43aa9f9c")
 		)
 		(pad "41" smd rect
-			(at -1.5 0.86 180)
+			(at -1.5 0.86 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1786,7 +1786,7 @@
 			(uuid "d351ab5e-fe99-4aed-a8ca-9eb605662558")
 		)
 		(pad "41" smd rect
-			(at -0.1 -1.94 180)
+			(at -0.1 -1.94 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1795,7 +1795,7 @@
 			(uuid "72d0e2f8-40a2-418c-86b5-7d33e4afad2e")
 		)
 		(pad "41" smd rect
-			(at -0.1 -0.54 180)
+			(at -0.1 -0.54 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1804,7 +1804,7 @@
 			(uuid "0c2741f0-67da-4bd8-8371-2d4db5d7c135")
 		)
 		(pad "41" smd rect
-			(at -0.1 0.86 180)
+			(at -0.1 0.86 270)
 			(size 0.9 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 8 "GND")
@@ -1841,7 +1841,7 @@
 			)
 			(polygon
 				(pts
-					(xy 147.5 54.7) (xy 129.5 54.7) (xy 129.5 48.75) (xy 147.5 48.75)
+					(xy 110.7 55.25) (xy 110.7 73.25) (xy 104.75 73.25) (xy 104.75 55.25)
 				)
 			)
 		)
@@ -1862,7 +1862,7 @@
 	(footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
 		(layer "F.Cu")
 		(uuid "0a81bf56-409f-401c-97eb-62c5ed972d23")
-		(at 184 39.185)
+		(at 184.75 82.25)
 		(descr "4-Lead Plastic Small Outline (SO), see https://www.elpro.org/de/index.php?controller=attachment&id_attachment=339")
 		(tags "SO SOIC 2.54")
 		(property "Reference" "U13"
@@ -2503,7 +2503,7 @@
 	(footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
 		(layer "F.Cu")
 		(uuid "0efc2f87-2803-452e-b4f7-07f88bf024fc")
-		(at 164.4 44.27)
+		(at 165.15 88.325)
 		(descr "4-Lead Plastic Small Outline (SO), see https://www.elpro.org/de/index.php?controller=attachment&id_attachment=339")
 		(tags "SO SOIC 2.54")
 		(property "Reference" "U12"
@@ -4508,7 +4508,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x06_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "42a2c39d-0109-43f4-8b55-6b020ea535d6")
-		(at 108.5 91.25)
+		(at 108.25 110)
 		(descr "Terminal Block 4Ucon ItemNo. 19964, 6 pins, pitch 3.5mm, size 21.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19964.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 19964 pitch 3.5mm size 21.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J6"
@@ -5292,7 +5292,7 @@
 	(footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
 		(layer "F.Cu")
 		(uuid "4afdf77d-2bd3-42c7-b33f-525fb25ef352")
-		(at 164.4 38.955)
+		(at 165.15 83.01)
 		(descr "4-Lead Plastic Small Outline (SO), see https://www.elpro.org/de/index.php?controller=attachment&id_attachment=339")
 		(tags "SO SOIC 2.54")
 		(property "Reference" "U5"
@@ -5570,7 +5570,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "4f8c5357-c33e-4d20-bdf5-9e1c192dff88")
-		(at 131.5 91)
+		(at 131.25 109.75)
 		(descr "Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 19963 pitch 3.5mm size 7.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J1"
@@ -6186,7 +6186,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223"
 		(layer "F.Cu")
 		(uuid "5c197a93-9c28-437e-97a8-1184a9dfd755")
-		(at 154.55 48.74)
+		(at 154.5 55.75)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "Q3"
@@ -7145,7 +7145,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223"
 		(layer "F.Cu")
 		(uuid "7cf3d5bd-9fab-44cd-868a-29be624b48e8")
-		(at 154.55 40.415)
+		(at 154.97 78.5)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "Q1"
@@ -7410,7 +7410,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7df4ef97-c622-4b17-b52a-3acb81211fc5")
-		(at 139.25 43 180)
+		(at 139 39.9825 180)
 		(descr "Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 19963 pitch 3.5mm size 7.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J9"
@@ -8034,9 +8034,9 @@
 	(footprint "Riqi_Parts:YLPTEC RSM3485ECHT"
 		(layer "F.Cu")
 		(uuid "7fbcd207-7b3c-40df-bb82-d292e056f2e1")
-		(at 107.2 71.45)
+		(at 148.83 74.03 90)
 		(property "Reference" "U3"
-			(at 9.75 -21.25 0)
+			(at 9.75 -21.25 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "06bc8f78-8720-4e21-a165-c943f0c5437a")
@@ -8048,7 +8048,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 9.75 -19.75 0)
+			(at 9.75 -19.75 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "7483e77b-c9a7-42ad-80e1-e4471235d086")
@@ -8060,7 +8060,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411051508_YLPTEC-RSM3485ECHT_C2992406.pdf"
-			(at 6.5 -24.5 0)
+			(at 6.5 -24.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8073,7 +8073,7 @@
 			)
 		)
 		(property "Description" "RS485 ISOLATED MODULE"
-			(at 6.5 -24.5 0)
+			(at 6.5 -24.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -8090,6 +8090,16 @@
 		(sheetfile "RS485_INTERFAZ.kicad_sch")
 		(attr smd)
 		(fp_line
+			(start 19.5 -16.5)
+			(end 0 -16.5)
+			(stroke
+				(width 0.3)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5767250b-8241-4cee-b1c8-40312f66148b")
+		)
+		(fp_line
 			(start 0 -16.5)
 			(end 0 -2.33)
 			(stroke
@@ -8100,24 +8110,14 @@
 			(uuid "4d2edb2b-2606-4050-9e57-1f5f3a3f6950")
 		)
 		(fp_line
-			(start 1.46 0)
-			(end 0 -2.33)
+			(start 19.5 0)
+			(end 19.5 -16.5)
 			(stroke
 				(width 0.3)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e86c1278-4ea9-4e48-8222-fcb0b6ca35b8")
-		)
-		(fp_line
-			(start 19.5 -16.5)
-			(end 0 -16.5)
-			(stroke
-				(width 0.3)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5767250b-8241-4cee-b1c8-40312f66148b")
+			(uuid "e3298eb9-db3e-471b-8164-a94a4027a7a2")
 		)
 		(fp_line
 			(start 19.5 0)
@@ -8130,14 +8130,14 @@
 			(uuid "a8c8161e-c88c-45f1-be63-88fe1627d160")
 		)
 		(fp_line
-			(start 19.5 0)
-			(end 19.5 -16.5)
+			(start 1.46 0)
+			(end 0 -2.33)
 			(stroke
 				(width 0.3)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e3298eb9-db3e-471b-8164-a94a4027a7a2")
+			(uuid "e86c1278-4ea9-4e48-8222-fcb0b6ca35b8")
 		)
 		(fp_poly
 			(pts
@@ -8152,7 +8152,7 @@
 			(uuid "27f3947b-c432-44b3-a4fa-2a44587ade58")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 9.75 -18.25 0)
+			(at 9.75 -18.25 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "35e77249-008e-4901-9ecc-d40a2f4d79f8")
@@ -8164,7 +8164,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 2.54 -3.5)
+			(at 2.54 -3.5 90)
 			(size 1.4 1.4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8175,7 +8175,7 @@
 			(uuid "912bb352-f313-48aa-9852-f06cec592cd1")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 -6.04)
+			(at 2.54 -6.04 90)
 			(size 1.4 1.4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8186,7 +8186,7 @@
 			(uuid "44bdf602-1b1e-41ed-9013-016b94528675")
 		)
 		(pad "3" thru_hole circle
-			(at 2.54 -8.58)
+			(at 2.54 -8.58 90)
 			(size 1.4 1.4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8197,7 +8197,7 @@
 			(uuid "e3317358-6391-4d36-8783-d9832f6929f5")
 		)
 		(pad "4" thru_hole circle
-			(at 2.54 -11.12)
+			(at 2.54 -11.12 90)
 			(size 1.4 1.4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8208,7 +8208,7 @@
 			(uuid "e153ed3d-83eb-4387-a373-8788fbb550cb")
 		)
 		(pad "5" thru_hole circle
-			(at 2.54 -13.66)
+			(at 2.54 -13.66 90)
 			(size 1.4 1.4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8219,7 +8219,7 @@
 			(uuid "9a50fd66-fe42-4c6c-a00f-45001c4c62db")
 		)
 		(pad "8" thru_hole circle
-			(at 17.78 -8.58)
+			(at 17.78 -8.58 90)
 			(size 1.4 1.4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8230,7 +8230,7 @@
 			(uuid "10d54820-1b7f-4b0c-8b0f-89c021f40b25")
 		)
 		(pad "9" thru_hole circle
-			(at 17.78 -6.04)
+			(at 17.78 -6.04 90)
 			(size 1.4 1.4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8241,7 +8241,7 @@
 			(uuid "6e9faeb3-fadf-4908-8ea5-b26cf6b9976d")
 		)
 		(pad "10" thru_hole circle
-			(at 17.78 -3.5)
+			(at 17.78 -3.5 90)
 			(size 1.4 1.4)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8256,7 +8256,7 @@
 	(footprint "Package_SO:SO-4_4.4x3.6mm_P2.54mm"
 		(layer "F.Cu")
 		(uuid "8486f182-4644-4563-8ec8-3f7c57d27c78")
-		(at 184 44.5)
+		(at 184.75 87.565)
 		(descr "4-Lead Plastic Small Outline (SO), see https://www.elpro.org/de/index.php?controller=attachment&id_attachment=339")
 		(tags "SO SOIC 2.54")
 		(property "Reference" "U14"
@@ -9090,7 +9090,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "89aec3bf-ea68-47c7-b5f7-b7619406a064")
-		(at 169.25 91.0175)
+		(at 169 109.7675)
 		(descr "Terminal Block 4Ucon ItemNo. 20001, 4 pins, pitch 3.5mm, size 14.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/20001.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 20001 pitch 3.5mm size 14.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J12"
@@ -9512,7 +9512,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "98d8a278-a84c-4aa8-a3c4-003bd0d95ca6")
-		(at 129 43 180)
+		(at 128.75 39.9825 180)
 		(descr "Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 19963 pitch 3.5mm size 7.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J5"
@@ -10274,7 +10274,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b3f2b9cd-8b49-4a82-a8f4-0de69429e2da")
-		(at 159 91.25)
+		(at 158.75 110)
 		(descr "Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 19963 pitch 3.5mm size 7.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J2"
@@ -10612,7 +10612,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "be81d0c9-2846-4644-8d90-4c9da9077f7e")
-		(at 185.75 91.25)
+		(at 185.5 110)
 		(descr "Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 19963 pitch 3.5mm size 7.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J4"
@@ -11904,7 +11904,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223"
 		(layer "F.Cu")
 		(uuid "ccbb3585-500d-46e4-a37c-bf5d7b3c1806")
-		(at 174.15 40.645)
+		(at 174.9 84.7)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "Q4"
@@ -12381,7 +12381,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "dd7c1c7c-3011-41de-8f31-c5f66094dee1")
-		(at 196.5 91.25)
+		(at 196.25 110)
 		(descr "Terminal Block 4Ucon ItemNo. 19963, 2 pins, pitch 3.5mm, size 7.7x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/19963.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 19963 pitch 3.5mm size 7.7x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J10"
@@ -12719,7 +12719,7 @@
 	(footprint "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e3e8448a-d992-4f38-94c7-36d24e777389")
-		(at 119 43 180)
+		(at 118.75 39.9825 180)
 		(descr "Terminal Block 4Ucon ItemNo. 20193, 3 pins, pitch 3.5mm, size 11.2x7mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.4uconnector.com/online/object/4udrawing/20193.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_4Ucon")
 		(tags "THT Terminal Block 4Ucon ItemNo. 20193 pitch 3.5mm size 11.2x7mm drill 1.2mm pad 2.4mm")
 		(property "Reference" "J7"
