@@ -784,37 +784,25 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 17.78 15.24)
-		(end 110.49 80.01)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cb23467f-5489-4740-9a61-7e0794309f53)
-	)
 	(junction
-		(at 74.93 45.72)
+		(at 149.86 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22a05c60-5d36-418b-846c-3d12a24db8b7")
 	)
 	(junction
-		(at 92.71 41.91)
+		(at 167.64 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d1a6d2a-5f66-4e19-9c16-dbff270d981a")
 	)
 	(no_connect
-		(at 49.53 57.15)
+		(at 124.46 86.36)
 		(uuid "2650831e-5859-4c23-a617-4bfa3fad0e4a")
 	)
 	(wire
 		(pts
-			(xy 57.15 45.72) (xy 63.5 45.72)
+			(xy 132.08 74.93) (xy 138.43 74.93)
 		)
 		(stroke
 			(width 0)
@@ -824,7 +812,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 96.52 45.72)
+			(xy 149.86 74.93) (xy 171.45 74.93)
 		)
 		(stroke
 			(width 0)
@@ -834,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 59.69) (xy 83.82 62.23)
+			(xy 158.75 88.9) (xy 158.75 91.44)
 		)
 		(stroke
 			(width 0)
@@ -844,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 41.91) (xy 63.5 41.91)
+			(xy 132.08 71.12) (xy 138.43 71.12)
 		)
 		(stroke
 			(width 0)
@@ -854,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 92.71 55.88)
+			(xy 167.64 71.12) (xy 167.64 85.09)
 		)
 		(stroke
 			(width 0)
@@ -864,7 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 57.15) (xy 41.91 59.69)
+			(xy 116.84 86.36) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -874,7 +862,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 26.67) (xy 45.72 30.48)
+			(xy 120.65 55.88) (xy 120.65 59.69)
 		)
 		(stroke
 			(width 0)
@@ -884,7 +872,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 41.91) (xy 96.52 41.91)
+			(xy 167.64 71.12) (xy 171.45 71.12)
 		)
 		(stroke
 			(width 0)
@@ -894,7 +882,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 46.99) (xy 33.02 46.99)
+			(xy 104.14 76.2) (xy 107.95 76.2)
 		)
 		(stroke
 			(width 0)
@@ -904,7 +892,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 45.72) (xy 74.93 45.72)
+			(xy 146.05 74.93) (xy 149.86 74.93)
 		)
 		(stroke
 			(width 0)
@@ -914,7 +902,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 39.37) (xy 33.02 39.37)
+			(xy 104.14 68.58) (xy 107.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -924,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 41.91) (xy 92.71 41.91)
+			(xy 146.05 71.12) (xy 167.64 71.12)
 		)
 		(stroke
 			(width 0)
@@ -934,7 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 74.93 55.88)
+			(xy 149.86 74.93) (xy 149.86 85.09)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +932,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 43.18) (xy 33.02 43.18)
+			(xy 104.14 72.39) (xy 107.95 72.39)
 		)
 		(stroke
 			(width 0)
@@ -954,7 +942,7 @@
 	)
 	(hierarchical_label "UART_RX"
 		(shape output)
-		(at 29.21 43.18 180)
+		(at 104.14 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -965,7 +953,7 @@
 	)
 	(hierarchical_label "RS485_A"
 		(shape bidirectional)
-		(at 96.52 45.72 0)
+		(at 171.45 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -976,7 +964,7 @@
 	)
 	(hierarchical_label "~{TX}{slash}RX"
 		(shape input)
-		(at 29.21 46.99 180)
+		(at 104.14 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -987,7 +975,7 @@
 	)
 	(hierarchical_label "UART_TX"
 		(shape input)
-		(at 29.21 39.37 180)
+		(at 104.14 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -998,7 +986,7 @@
 	)
 	(hierarchical_label "RS485_B"
 		(shape bidirectional)
-		(at 96.52 41.91 0)
+		(at 171.45 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1009,7 +997,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 59.69 0)
+		(at 116.84 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1018,7 +1006,7 @@
 		(fields_autoplaced yes)
 		(uuid "0375b851-b1ff-42cc-892f-e9a474cb14b1")
 		(property "Reference" "#PWR16"
-			(at 41.91 66.04 0)
+			(at 116.84 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1015,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 64.77 0)
+			(at 116.84 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1035,7 +1023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 59.69 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 59.69 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 59.69 0)
+			(at 116.84 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,7 +1053,7 @@
 			(uuid "434065af-173d-4b00-afbe-67fe1a2927cd")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/43a112db-786f-42fb-8db3-67286b51ed8f"
 					(reference "#PWR16")
 					(unit 1)
@@ -1075,7 +1063,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 41.91 90)
+		(at 142.24 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1084,7 +1072,7 @@
 		(fields_autoplaced yes)
 		(uuid "079a3814-b3db-4b43-8cfb-6ba794be0c93")
 		(property "Reference" "R24"
-			(at 67.31 35.56 90)
+			(at 142.24 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1092,7 +1080,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 67.31 38.1 90)
+			(at 142.24 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 43.688 90)
+			(at 142.24 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,7 +1097,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 41.91 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,7 +1106,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 41.91 0)
+			(at 142.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +1121,7 @@
 			(uuid "046ee995-96a5-4ab5-b3a4-86d1f71390cb")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/43a112db-786f-42fb-8db3-67286b51ed8f"
 					(reference "R24")
 					(unit 1)
@@ -1143,7 +1131,7 @@
 	)
 	(symbol
 		(lib_id "Riqi_Parts:YLPTEC_RSM3485ECHT")
-		(at 50.8 31.75 0)
+		(at 125.73 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1152,7 +1140,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b6916b1-d001-4d1f-b0e7-4ef2889cac37")
 		(property "Reference" "U3"
-			(at 47.8633 29.21 0)
+			(at 122.7933 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1161,7 +1149,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 47.8633 31.75 0)
+			(at 122.7933 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1170,7 +1158,7 @@
 			)
 		)
 		(property "Footprint" "Riqi_Parts:YLPTEC RSM3485ECHT"
-			(at 50.8 31.75 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,7 +1167,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411051508_YLPTEC-RSM3485ECHT_C2992406.pdf"
-			(at 50.8 31.75 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1176,7 @@
 			)
 		)
 		(property "Description" "RS485 ISOLATED MODULE"
-			(at 50.8 31.75 0)
+			(at 125.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1209,7 @@
 			(uuid "6853de27-c6ae-4a96-b6b2-395f79bd6375")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/43a112db-786f-42fb-8db3-67286b51ed8f"
 					(reference "U3")
 					(unit 1)
@@ -1231,7 +1219,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SM712_SOT23")
-		(at 83.82 55.88 0)
+		(at 158.75 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1240,7 +1228,7 @@
 		(fields_autoplaced yes)
 		(uuid "6fde49b7-df7d-4abc-b65a-ed035397880f")
 		(property "Reference" "D2"
-			(at 83.82 49.53 0)
+			(at 158.75 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1236,7 @@
 			)
 		)
 		(property "Value" "SM712_SOT23"
-			(at 83.82 52.07 0)
+			(at 158.75 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1244,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 83.82 64.77 0)
+			(at 158.75 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1253,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf"
-			(at 80.01 55.88 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1274,7 +1262,7 @@
 			)
 		)
 		(property "Description" "7V/12V, 600W Asymmetrical TVS Diode Array, SOT-23"
-			(at 83.82 55.88 0)
+			(at 158.75 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +1280,7 @@
 			(uuid "9c407100-a769-4486-ad76-6a49e2e75586")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/43a112db-786f-42fb-8db3-67286b51ed8f"
 					(reference "D2")
 					(unit 1)
@@ -1302,7 +1290,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 45.72 90)
+		(at 142.24 74.93 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1311,7 +1299,7 @@
 		(dnp no)
 		(uuid "8f0a9f59-a5bc-49b1-a382-e75e7a2d5f1f")
 		(property "Reference" "R25"
-			(at 67.31 52.07 90)
+			(at 142.24 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1307,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 67.31 49.53 90)
+			(at 142.24 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,7 +1315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 43.942 90)
+			(at 142.24 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,7 +1324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 67.31 45.72 0)
+			(at 142.24 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,7 +1333,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 67.31 45.72 0)
+			(at 142.24 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1358,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 45.72 26.67 0)
+		(at 120.65 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1379,7 +1367,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdc33729-c98f-481b-a33f-0eb96d072ec8")
 		(property "Reference" "#PWR17"
-			(at 45.72 30.48 0)
+			(at 120.65 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +1376,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 45.72 21.59 0)
+			(at 120.65 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1384,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 26.67 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1393,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 26.67 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1402,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 45.72 26.67 0)
+			(at 120.65 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1414,7 @@
 			(uuid "bccb0630-3bdf-4c07-bb9e-742fdc3a68d5")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/43a112db-786f-42fb-8db3-67286b51ed8f"
 					(reference "#PWR17")
 					(unit 1)
@@ -1436,7 +1424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 62.23 0)
+		(at 158.75 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1445,7 +1433,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb5ae3c2-634d-4b95-8f6d-d83379a5db3f")
 		(property "Reference" "#PWR052"
-			(at 83.82 68.58 0)
+			(at 158.75 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1454,7 +1442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 67.31 0)
+			(at 158.75 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1450,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 62.23 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1459,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 62.23 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1468,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 62.23 0)
+			(at 158.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)

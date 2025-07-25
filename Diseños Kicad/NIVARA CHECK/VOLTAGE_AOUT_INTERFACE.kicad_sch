@@ -821,51 +821,39 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 17.78 17.78)
-		(end 114.3 81.28)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid aed338bf-9f23-46a1-829b-ad58128c8b32)
-	)
 	(junction
-		(at 67.31 57.15)
+		(at 156.21 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04a3c21a-e4c1-42c4-80c3-00a22acc8bca")
 	)
 	(junction
-		(at 36.83 44.45)
+		(at 125.73 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f6e9b31-d3ce-41ee-95ed-f6c4e557eee9")
 	)
 	(junction
-		(at 82.55 36.83)
+		(at 171.45 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a81fc67-e467-4cbf-9666-4225093dc67b")
 	)
 	(junction
-		(at 52.07 57.15)
+		(at 140.97 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd442c45-d160-4b44-a2ab-31895ab0127c")
 	)
 	(junction
-		(at 72.39 36.83)
+		(at 161.29 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac1b807-c548-4013-aef5-c86f75021d19")
 	)
 	(wire
 		(pts
-			(xy 52.07 29.21) (xy 52.07 31.75)
+			(xy 140.97 76.2) (xy 140.97 78.74)
 		)
 		(stroke
 			(width 0)
@@ -875,7 +863,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 57.15) (xy 57.15 57.15)
+			(xy 140.97 104.14) (xy 146.05 104.14)
 		)
 		(stroke
 			(width 0)
@@ -885,7 +873,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 73.66) (xy 67.31 73.66)
+			(xy 144.78 120.65) (xy 156.21 120.65)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +883,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 49.53) (xy 63.5 49.53)
+			(xy 156.21 96.52) (xy 152.4 96.52)
 		)
 		(stroke
 			(width 0)
@@ -905,7 +893,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 40.64) (xy 39.37 40.64)
+			(xy 120.65 87.63) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +903,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 44.45) (xy 72.39 46.99)
+			(xy 161.29 91.44) (xy 161.29 93.98)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +913,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 36.83) (xy 91.44 36.83)
+			(xy 171.45 83.82) (xy 180.34 83.82)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +923,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 44.45) (xy 82.55 46.99)
+			(xy 171.45 91.44) (xy 171.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +933,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 36.83) (xy 82.55 36.83)
+			(xy 161.29 83.82) (xy 171.45 83.82)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 55.88) (xy 52.07 57.15)
+			(xy 140.97 102.87) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +953,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 36.83) (xy 72.39 36.83)
+			(xy 152.4 83.82) (xy 161.29 83.82)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 57.15) (xy 67.31 49.53)
+			(xy 156.21 104.14) (xy 156.21 96.52)
 		)
 		(stroke
 			(width 0)
@@ -985,7 +973,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 44.45) (xy 39.37 44.45)
+			(xy 125.73 91.44) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +983,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 44.45) (xy 36.83 73.66)
+			(xy 125.73 91.44) (xy 125.73 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 36.83) (xy 39.37 36.83)
+			(xy 120.65 83.82) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 73.66) (xy 36.83 73.66)
+			(xy 137.16 120.65) (xy 125.73 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1013,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 57.15) (xy 52.07 58.42)
+			(xy 140.97 104.14) (xy 140.97 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1023,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 57.15) (xy 67.31 57.15)
+			(xy 153.67 104.14) (xy 156.21 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1045,7 +1033,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 44.45) (xy 36.83 44.45)
+			(xy 120.65 91.44) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1055,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 73.66) (xy 67.31 57.15)
+			(xy 156.21 120.65) (xy 156.21 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1065,7 +1053,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape bidirectional)
-		(at 31.75 36.83 180)
+		(at 120.65 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1076,7 +1064,7 @@
 	)
 	(hierarchical_label "SEL"
 		(shape output)
-		(at 31.75 44.45 180)
+		(at 120.65 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1087,7 +1075,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 31.75 40.64 180)
+		(at 120.65 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1098,7 +1086,7 @@
 	)
 	(hierarchical_label "VOLTAGE_AOUTPUT"
 		(shape output)
-		(at 91.44 36.83 0)
+		(at 180.34 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1109,7 +1097,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 58.42 0)
+		(at 140.97 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1118,7 +1106,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d36b151-1690-4e53-ac0a-4b56dace1e06")
 		(property "Reference" "#PWR049"
-			(at 52.07 64.77 0)
+			(at 140.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1127,7 +1115,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 63.5 0)
+			(at 140.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1123,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 58.42 0)
+			(at 140.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1132,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 58.42 0)
+			(at 140.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1141,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 58.42 0)
+			(at 140.97 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +1153,7 @@
 			(uuid "6ae02edb-08f9-405c-a30d-29f52d2ca84d")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/11a8222e-f360-40de-9c02-857da7131a56"
 					(reference "#PWR049")
 					(unit 1)
@@ -1175,7 +1163,7 @@
 	)
 	(symbol
 		(lib_id "Riqi_Parts:GP8201S")
-		(at 45.72 33.02 0)
+		(at 134.62 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1184,7 +1172,7 @@
 		(fields_autoplaced yes)
 		(uuid "3083f3de-6405-48c1-bfbc-8eba692dd5b1")
 		(property "Reference" "U11"
-			(at 54.2133 30.48 0)
+			(at 143.1133 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1181,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 54.2133 33.02 0)
+			(at 143.1133 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,7 +1190,7 @@
 			)
 		)
 		(property "Footprint" "Riqi_Parts:eSOP-8"
-			(at 45.72 33.02 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1199,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2410121507_Guestgood-GP8201S-TC50-EW_C5240058.pdf"
-			(at 45.72 33.02 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 33.02 0)
+			(at 134.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,7 +1238,7 @@
 			(uuid "bdf14164-8516-4c07-8d3e-97d1bf96b75b")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/11a8222e-f360-40de-9c02-857da7131a56"
 					(reference "U11")
 					(unit 1)
@@ -1260,7 +1248,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 52.07 29.21 0)
+		(at 140.97 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1269,7 +1257,7 @@
 		(fields_autoplaced yes)
 		(uuid "32a4f282-1938-49ed-9804-2171ccd66d25")
 		(property "Reference" "#PWR048"
-			(at 52.07 33.02 0)
+			(at 140.97 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1266,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 52.07 24.13 0)
+			(at 140.97 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1286,7 +1274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 29.21 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1295,7 +1283,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 29.21 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 52.07 29.21 0)
+			(at 140.97 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1316,7 +1304,7 @@
 			(uuid "8806bf15-8e95-4822-8b3d-92ca2ca38280")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/11a8222e-f360-40de-9c02-857da7131a56"
 					(reference "#PWR048")
 					(unit 1)
@@ -1326,7 +1314,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 82.55 46.99 0)
+		(at 171.45 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1335,7 +1323,7 @@
 		(fields_autoplaced yes)
 		(uuid "662b6e9a-245d-4a1f-b92b-f2a9faa0457a")
 		(property "Reference" "#PWR046"
-			(at 82.55 53.34 0)
+			(at 171.45 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1332,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 82.55 52.07 0)
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,7 +1340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 46.99 0)
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1361,7 +1349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 46.99 0)
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1370,7 +1358,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 46.99 0)
+			(at 171.45 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1392,7 +1380,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMF24A")
-		(at 82.55 40.64 270)
+		(at 171.45 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1401,7 +1389,7 @@
 		(fields_autoplaced yes)
 		(uuid "70958a0c-14cd-498d-96c7-6784d8276f5e")
 		(property "Reference" "D3"
-			(at 85.09 39.3699 90)
+			(at 173.99 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1410,7 +1398,7 @@
 			)
 		)
 		(property "Value" "SMF24A"
-			(at 85.09 41.9099 90)
+			(at 173.99 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1407,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMF"
-			(at 77.47 40.64 0)
+			(at 166.37 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1416,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/doc?85881"
-			(at 82.55 39.37 0)
+			(at 171.45 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1425,7 @@
 			)
 		)
 		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 24Vrwm, SMF"
-			(at 82.55 40.64 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1434,7 @@
 			)
 		)
 		(property "LCSC#" "C7495269"
-			(at 82.55 40.64 90)
+			(at 171.45 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1461,7 +1449,7 @@
 			(uuid "20826ab0-bcd0-4e56-a872-7397b8be6b21")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/11a8222e-f360-40de-9c02-857da7131a56"
 					(reference "D3")
 					(unit 1)
@@ -1471,7 +1459,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 57.15 90)
+		(at 149.86 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1479,7 +1467,7 @@
 		(dnp no)
 		(uuid "b6a894aa-f515-4d38-a765-726d545de0a9")
 		(property "Reference" "C7"
-			(at 60.96 64.77 90)
+			(at 149.86 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1475,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 60.96 62.23 90)
+			(at 149.86 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 56.1848 0)
+			(at 153.67 103.1748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1504,7 +1492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 57.15 0)
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,7 +1501,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 57.15 0)
+			(at 149.86 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1528,7 +1516,7 @@
 			(uuid "940082d0-31e0-4ec3-920b-9b59a3d1c782")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/11a8222e-f360-40de-9c02-857da7131a56"
 					(reference "C7")
 					(unit 1)
@@ -1538,7 +1526,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 46.99 0)
+		(at 161.29 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1547,7 +1535,7 @@
 		(fields_autoplaced yes)
 		(uuid "bba1afef-4158-4353-ac2f-1c0cdacfd82d")
 		(property "Reference" "#PWR050"
-			(at 72.39 53.34 0)
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 52.07 0)
+			(at 161.29 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,7 +1552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 46.99 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +1561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 46.99 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 46.99 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,7 +1592,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 72.39 40.64 180)
+		(at 161.29 87.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1612,7 +1600,7 @@
 		(dnp no)
 		(uuid "ddb04e3c-561d-41ad-bae2-3a5e343ae6fa")
 		(property "Reference" "C8"
-			(at 80.01 40.64 90)
+			(at 168.91 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1608,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 77.47 40.64 90)
+			(at 166.37 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.4248 36.83 0)
+			(at 160.3248 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1625,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 40.64 0)
+			(at 161.29 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1634,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 72.39 40.64 0)
+			(at 161.29 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1671,7 +1659,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 73.66 90)
+		(at 140.97 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1680,7 +1668,7 @@
 		(fields_autoplaced yes)
 		(uuid "e99df2aa-36c8-4e39-9588-0da6881d6d75")
 		(property "Reference" "R23"
-			(at 52.07 67.31 90)
+			(at 140.97 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,7 +1676,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 52.07 69.85 90)
+			(at 140.97 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 75.438 90)
+			(at 140.97 122.428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 73.66 0)
+			(at 140.97 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1702,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 73.66 0)
+			(at 140.97 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,7 +1717,7 @@
 			(uuid "5868d3d0-367d-4779-832e-8e43f8ecca3f")
 		)
 		(instances
-			(project "NIVARA"
+			(project ""
 				(path "/8290cc18-06d0-4e02-a781-29a61ebc321a/9e4d7a0c-a5eb-4e88-9036-0c35e68b279a/11a8222e-f360-40de-9c02-857da7131a56"
 					(reference "R23")
 					(unit 1)
