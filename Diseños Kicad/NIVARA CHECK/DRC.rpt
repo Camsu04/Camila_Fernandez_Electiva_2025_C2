@@ -1,0 +1,841 @@
+** Drc report for NIVARA.kicad_pcb **
+** Created on 2025-08-08T18:14:54-0400 **
+
+** Found 96 DRC violations **
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(170,8125 mm, 97,9625 mm): Pad PTH 11 [/NIVARA_BOARD/RL2_COM] de K1
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(163,3125 mm, 94,4625 mm): Pad PTH 12 [/NIVARA_BOARD/RL2_OUTPUT_NC] de K1
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(163,3125 mm, 101,4625 mm): Pad PTH 14 [/NIVARA_BOARD/RL2_OUTPUT_NO] de K1
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(163,3125 mm, 77,9625 mm): Pad PTH A1 [VCC] de K1
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(170,8125 mm, 77,9625 mm): Pad PTH A2 [Net-(Q2-1C)] de K1
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,5500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(131,4200 mm, 49,0000 mm): Pad PTH 1 [/NIVARA_BOARD/mA_AOUTPUT+] de D4
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,5500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(141,5800 mm, 49,0000 mm): Pad PTH 2 [Net-(D4-A)] de D4
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,2000 mm)
+    Regla: restricciones de configuración de placa; error
+    @(145,3300 mm, 71,4900 mm): Pad PTH 1 [+3.3V] de U3
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,2000 mm)
+    Regla: restricciones de configuración de placa; error
+    @(142,7900 mm, 71,4900 mm): Pad PTH 2 [GND] de U3
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,2000 mm)
+    Regla: restricciones de configuración de placa; error
+    @(140,2500 mm, 71,4900 mm): Pad PTH 3 [/NIVARA_BOARD/RS485_INTERFAZ/UART_TX] de U3
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,2000 mm)
+    Regla: restricciones de configuración de placa; error
+    @(137,7100 mm, 71,4900 mm): Pad PTH 4 [/NIVARA_BOARD/RS485_INTERFAZ/UART_RX] de U3
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,2000 mm)
+    Regla: restricciones de configuración de placa; error
+    @(135,1700 mm, 71,4900 mm): Pad PTH 5 [/NIVARA_BOARD/RS485_INTERFAZ/~{TX}/RX] de U3
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,2000 mm)
+    Regla: restricciones de configuración de placa; error
+    @(140,2500 mm, 56,2500 mm): Pad PTH 8 [Net-(U3-B)] de U3
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,2000 mm)
+    Regla: restricciones de configuración de placa; error
+    @(142,7900 mm, 56,2500 mm): Pad PTH 9 [Net-(U3-A)] de U3
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,2000 mm)
+    Regla: restricciones de configuración de placa; error
+    @(145,3300 mm, 56,2500 mm): Pad PTH 10 [unconnected-(U3-RGND-Pad10)] de U3
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(184,8125 mm, 97,9625 mm): Pad PTH 11 [/NIVARA_BOARD/RL1_COM] de K2
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(177,3125 mm, 94,4625 mm): Pad PTH 12 [/NIVARA_BOARD/RL1_OUTPUT_NC] de K2
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(177,3125 mm, 101,4625 mm): Pad PTH 14 [/NIVARA_BOARD/RL1_OUTPUT_NO] de K2
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(177,3125 mm, 77,9625 mm): Pad PTH A1 [VCC] de K2
+[annular_width]: Ancho de anular (restricciones de configuración de placa ancho anular min 0,6000 mm; real 0,3500 mm)
+    Regla: restricciones de configuración de placa; error
+    @(184,8125 mm, 77,9625 mm): Pad PTH A2 [Net-(Q2-2C)] de K2
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3000 mm)
+    Anulación local; error
+    @(126,1375 mm, 76,4500 mm): Pad 1 [Net-(D6-A1)] de JP1 en F.Cu
+    @(127,4375 mm, 76,4500 mm): Pad 2 [+3.3V] de JP1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(110,8800 mm, 72,8500 mm): Pad 1 [GND] de U1 en F.Cu
+    @(112,1500 mm, 72,8500 mm): Pad 2 [+3.3V] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(112,1500 mm, 72,8500 mm): Pad 2 [+3.3V] de U1 en F.Cu
+    @(113,4200 mm, 72,8500 mm): Pad 3 [Net-(U1-EN)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(113,4200 mm, 72,8500 mm): Pad 3 [Net-(U1-EN)] de U1 en F.Cu
+    @(114,6900 mm, 72,8500 mm): Pad 4 [/NIVARA_BOARD/32V_AIN_INTERFAZ/32V_ADC] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(114,6900 mm, 72,8500 mm): Pad 4 [/NIVARA_BOARD/32V_AIN_INTERFAZ/32V_ADC] de U1 en F.Cu
+    @(115,9600 mm, 72,8500 mm): Pad 5 [/NIVARA_BOARD/10V_AIN_INTERFAZ/10V_ADC] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(115,9600 mm, 72,8500 mm): Pad 5 [/NIVARA_BOARD/10V_AIN_INTERFAZ/10V_ADC] de U1 en F.Cu
+    @(117,2300 mm, 72,8500 mm): Pad 6 [/NIVARA_BOARD/PNP_OUT_INTERFAZ/PNP_EN0] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(117,2300 mm, 72,8500 mm): Pad 6 [/NIVARA_BOARD/PNP_OUT_INTERFAZ/PNP_EN0] de U1 en F.Cu
+    @(118,5000 mm, 72,8500 mm): Pad 7 [/NIVARA_BOARD/PNP_OUT_INTERFAZ/PNP_EN1] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(118,5000 mm, 72,8500 mm): Pad 7 [/NIVARA_BOARD/PNP_OUT_INTERFAZ/PNP_EN1] de U1 en F.Cu
+    @(119,7700 mm, 72,8500 mm): Pad 8 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(121,0400 mm, 72,8500 mm): Pad 9 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U1 en F.Cu
+    @(122,3100 mm, 72,8500 mm): Pad 10 [unconnected-(U1-GPIO17/U1TXD/ADC2_CH6-Pad10)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(122,3100 mm, 72,8500 mm): Pad 10 [unconnected-(U1-GPIO17/U1TXD/ADC2_CH6-Pad10)] de U1 en F.Cu
+    @(123,5800 mm, 72,8500 mm): Pad 11 [unconnected-(U1-GPIO18/U1RXD/ADC2_CH7/CLK_OUT3-Pad11)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(123,5800 mm, 72,8500 mm): Pad 11 [unconnected-(U1-GPIO18/U1RXD/ADC2_CH7/CLK_OUT3-Pad11)] de U1 en F.Cu
+    @(124,8500 mm, 72,8500 mm): Pad 12 [/NIVARA_BOARD/PNP_IN_Mod/NPN_Output0] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(124,8500 mm, 72,8500 mm): Pad 12 [/NIVARA_BOARD/PNP_IN_Mod/NPN_Output0] de U1 en F.Cu
+    @(126,1200 mm, 72,8500 mm): Pad 13 [unconnected-(U1-GPIO19/U1RTS/ADC2_CH8/CLK_OUT2/USB_D--Pad13)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(126,1200 mm, 72,8500 mm): Pad 13 [unconnected-(U1-GPIO19/U1RTS/ADC2_CH8/CLK_OUT2/USB_D--Pad13)] de U1 en F.Cu
+    @(127,3900 mm, 72,8500 mm): Pad 14 [unconnected-(U1-GPIO20/U1CTS/ADC2_CH9/CLK_OUT1/USB_D+-Pad14)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,5672 mm)
+    Anulación local; error
+    @(127,3900 mm, 72,8500 mm): Pad 14 [unconnected-(U1-GPIO20/U1CTS/ADC2_CH9/CLK_OUT1/USB_D+-Pad14)] de U1 en F.Cu
+    @(128,6400 mm, 71,0850 mm): Pad 15 [/NIVARA_BOARD/RELAY_INTERFAZ/RL2_EN] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 71,0850 mm): Pad 15 [/NIVARA_BOARD/RELAY_INTERFAZ/RL2_EN] de U1 en F.Cu
+    @(128,6400 mm, 69,8150 mm): Pad 16 [/NIVARA_BOARD/~{TRANSMIT}/RECEIVE] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 69,8150 mm): Pad 16 [/NIVARA_BOARD/~{TRANSMIT}/RECEIVE] de U1 en F.Cu
+    @(128,6400 mm, 68,5450 mm): Pad 17 [/NIVARA_BOARD/PNP_IN_Mod/NPN_Output1] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 68,5450 mm): Pad 17 [/NIVARA_BOARD/PNP_IN_Mod/NPN_Output1] de U1 en F.Cu
+    @(128,6400 mm, 67,2750 mm): Pad 18 [/NIVARA_BOARD/DRY_INPUT_INTERFAZ/DRY_OUT0] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 67,2750 mm): Pad 18 [/NIVARA_BOARD/DRY_INPUT_INTERFAZ/DRY_OUT0] de U1 en F.Cu
+    @(128,6400 mm, 66,0050 mm): Pad 19 [unconnected-(U1-GPIO11/TOUCH11/ADC2_CH0/FSPID/FSPIIO5/SUBSPID-Pad19)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 66,0050 mm): Pad 19 [unconnected-(U1-GPIO11/TOUCH11/ADC2_CH0/FSPID/FSPIIO5/SUBSPID-Pad19)] de U1 en F.Cu
+    @(128,6400 mm, 64,7350 mm): Pad 20 [unconnected-(U1-GPIO12/TOUCH12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK-Pad20)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 64,7350 mm): Pad 20 [unconnected-(U1-GPIO12/TOUCH12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK-Pad20)] de U1 en F.Cu
+    @(128,6400 mm, 63,4650 mm): Pad 21 [unconnected-(U1-GPIO13/TOUCH13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ-Pad21)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 63,4650 mm): Pad 21 [unconnected-(U1-GPIO13/TOUCH13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ-Pad21)] de U1 en F.Cu
+    @(128,6400 mm, 62,1950 mm): Pad 22 [unconnected-(U1-GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP-Pad22)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 62,1950 mm): Pad 22 [unconnected-(U1-GPIO14/TOUCH14/ADC2_CH3/FSPIWP/FSPIDQS/SUBSPIWP-Pad22)] de U1 en F.Cu
+    @(128,6400 mm, 60,9250 mm): Pad 23 [/NIVARA_BOARD/DRY_INPUT_INTERFAZ/DRY_OUT1] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 60,9250 mm): Pad 23 [/NIVARA_BOARD/DRY_INPUT_INTERFAZ/DRY_OUT1] de U1 en F.Cu
+    @(128,6400 mm, 59,6550 mm): Pad 24 [/NIVARA_BOARD/RS485_INTERFAZ/UART_TX] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 59,6550 mm): Pad 24 [/NIVARA_BOARD/RS485_INTERFAZ/UART_TX] de U1 en F.Cu
+    @(128,6400 mm, 58,3850 mm): Pad 25 [/NIVARA_BOARD/RS485_INTERFAZ/UART_RX] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(128,6400 mm, 58,3850 mm): Pad 25 [/NIVARA_BOARD/RS485_INTERFAZ/UART_RX] de U1 en F.Cu
+    @(128,6400 mm, 57,1150 mm): Pad 26 [/NIVARA_BOARD/NPN_OUT_INTERFAZ/NPN_EN1] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,5672 mm)
+    Anulación local; error
+    @(128,6400 mm, 57,1150 mm): Pad 26 [/NIVARA_BOARD/NPN_OUT_INTERFAZ/NPN_EN1] de U1 en F.Cu
+    @(127,3900 mm, 55,3500 mm): Pad 27 [unconnected-(U1-GPIO0/BOOT-Pad27)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(127,3900 mm, 55,3500 mm): Pad 27 [unconnected-(U1-GPIO0/BOOT-Pad27)] de U1 en F.Cu
+    @(126,1200 mm, 55,3500 mm): Pad 28 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SEL] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(126,1200 mm, 55,3500 mm): Pad 28 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SEL] de U1 en F.Cu
+    @(124,8500 mm, 55,3500 mm): Pad 29 [/NIVARA_BOARD/~{RUN}/STOP] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(124,8500 mm, 55,3500 mm): Pad 29 [/NIVARA_BOARD/~{RUN}/STOP] de U1 en F.Cu
+    @(123,5800 mm, 55,3500 mm): Pad 30 [unconnected-(U1-SPIDQS/GPIO37/FSPIQ/SUBSPIQ-Pad30)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(123,5800 mm, 55,3500 mm): Pad 30 [unconnected-(U1-SPIDQS/GPIO37/FSPIQ/SUBSPIQ-Pad30)] de U1 en F.Cu
+    @(122,3100 mm, 55,3500 mm): Pad 31 [/NIVARA_BOARD/NPN_OUT_INTERFAZ/NPN_EN0] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(122,3100 mm, 55,3500 mm): Pad 31 [/NIVARA_BOARD/NPN_OUT_INTERFAZ/NPN_EN0] de U1 en F.Cu
+    @(121,0400 mm, 55,3500 mm): Pad 32 [unconnected-(U1-MTCK/GPIO39/CLK_OUT3/SUBSPICS1-Pad32)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(121,0400 mm, 55,3500 mm): Pad 32 [unconnected-(U1-MTCK/GPIO39/CLK_OUT3/SUBSPICS1-Pad32)] de U1 en F.Cu
+    @(119,7700 mm, 55,3500 mm): Pad 33 [unconnected-(U1-MTDO/GPIO40/CLK_OUT2-Pad33)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(119,7700 mm, 55,3500 mm): Pad 33 [unconnected-(U1-MTDO/GPIO40/CLK_OUT2-Pad33)] de U1 en F.Cu
+    @(118,5000 mm, 55,3500 mm): Pad 34 [unconnected-(U1-MTDI/GPIO41/CLK_OUT1-Pad34)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(118,5000 mm, 55,3500 mm): Pad 34 [unconnected-(U1-MTDI/GPIO41/CLK_OUT1-Pad34)] de U1 en F.Cu
+    @(117,2300 mm, 55,3500 mm): Pad 35 [unconnected-(U1-MTMS/GPIO42-Pad35)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(117,2300 mm, 55,3500 mm): Pad 35 [unconnected-(U1-MTMS/GPIO42-Pad35)] de U1 en F.Cu
+    @(115,9600 mm, 55,3500 mm): Pad 36 [unconnected-(U1-U0RXD/GPIO44/CLK_OUT2-Pad36)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(115,9600 mm, 55,3500 mm): Pad 36 [unconnected-(U1-U0RXD/GPIO44/CLK_OUT2-Pad36)] de U1 en F.Cu
+    @(114,6900 mm, 55,3500 mm): Pad 37 [unconnected-(U1-U0TXD/GPIO43/CLK_OUT1-Pad37)] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(114,6900 mm, 55,3500 mm): Pad 37 [unconnected-(U1-U0TXD/GPIO43/CLK_OUT1-Pad37)] de U1 en F.Cu
+    @(113,4200 mm, 55,3500 mm): Pad 38 [/NIVARA_BOARD/RELAY_INTERFAZ/RL1_EN] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(113,4200 mm, 55,3500 mm): Pad 38 [/NIVARA_BOARD/RELAY_INTERFAZ/RL1_EN] de U1 en F.Cu
+    @(112,1500 mm, 55,3500 mm): Pad 39 [/NIVARA_BOARD/mA_AINPUT] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3700 mm)
+    Anulación local; error
+    @(112,1500 mm, 55,3500 mm): Pad 39 [/NIVARA_BOARD/mA_AINPUT] de U1 en F.Cu
+    @(110,8800 mm, 55,3500 mm): Pad 40 [GND] de U1 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3500 mm)
+    Anulación local; error
+    @(124,1375 mm, 93,4500 mm): Pad 1 [Net-(U2-FB)] de a2\ en F.Cu
+    @(124,1375 mm, 92,5000 mm): Pad 2 [VCC] de a2\ en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3500 mm)
+    Anulación local; error
+    @(121,8625 mm, 91,5500 mm): Pad 4 [GND] de a2\ en F.Cu
+    @(121,8625 mm, 92,5000 mm): Pad 5 [Net-(U2-SW)] de a2\ en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3500 mm)
+    Anulación local; error
+    @(121,8625 mm, 92,5000 mm): Pad 5 [Net-(U2-SW)] de a2\ en F.Cu
+    @(121,8625 mm, 93,4500 mm): Pad 6 [Net-(U2-BST)] de a2\ en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,4000 mm)
+    Anulación local; error
+    @(121,5500 mm, 85,9125 mm): Pad 2 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U6 en F.Cu
+    @(122,5500 mm, 85,9125 mm): Pad 3 [Net-(JP2-B)] de U6 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,4000 mm)
+    Anulación local; error
+    @(122,5500 mm, 85,9125 mm): Pad 3 [Net-(JP2-B)] de U6 en F.Cu
+    @(123,5500 mm, 85,9125 mm): Pad 4 [Net-(JP3-B)] de U6 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,4000 mm)
+    Anulación local; error
+    @(123,5500 mm, 85,9125 mm): Pad 4 [Net-(JP3-B)] de U6 en F.Cu
+    @(124,5500 mm, 85,9125 mm): Pad 5 [VCC] de U6 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,4000 mm)
+    Anulación local; error
+    @(124,5500 mm, 80,6375 mm): Pad 6 [GND] de U6 en F.Cu
+    @(123,5500 mm, 80,6375 mm): Pad 7 [Net-(U6-SET)] de U6 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,4000 mm)
+    Anulación local; error
+    @(123,5500 mm, 80,6375 mm): Pad 7 [Net-(U6-SET)] de U6 en F.Cu
+    @(122,5500 mm, 80,6375 mm): Pad 8 [Net-(U6-IOUT)] de U6 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,4000 mm)
+    Anulación local; error
+    @(122,5500 mm, 80,6375 mm): Pad 8 [Net-(U6-IOUT)] de U6 en F.Cu
+    @(121,5500 mm, 80,6375 mm): Pad 9 [Net-(JP4-B)] de U6 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,4000 mm)
+    Anulación local; error
+    @(121,5500 mm, 80,6375 mm): Pad 9 [Net-(JP4-B)] de U6 en F.Cu
+    @(120,5500 mm, 80,6375 mm): Pad 10 [Net-(U6-V5V)] de U6 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3500 mm)
+    Anulación local; error
+    @(119,3625 mm, 76,0500 mm): Pad 1 [Net-(JP1-A)] de U2 en F.Cu
+    @(119,3625 mm, 77,0000 mm): Pad 2 [VCC] de U2 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3500 mm)
+    Anulación local; error
+    @(121,6375 mm, 77,9500 mm): Pad 4 [GND] de U2 en F.Cu
+    @(121,6375 mm, 77,0000 mm): Pad 5 [Net-(U2-SW)] de U2 en F.Cu
+[clearance]: Infracción de margen (mínimo de placa margen 0,6000 mm; real 0,3500 mm)
+    Anulación local; error
+    @(121,6375 mm, 77,0000 mm): Pad 5 [Net-(U2-SW)] de U2 en F.Cu
+    @(121,6375 mm, 76,0500 mm): Pad 6 [Net-(U2-BST)] de U2 en F.Cu
+[missing_courtyard]: La huella no tiene un patio definido
+    Anulación local; error
+    @(148,8300 mm, 74,0300 mm): Huella U3
+[footprint_type_mismatch]: El tipo de componente de huella no coincide con los pads de la huella ('Orificio pasante' esperado; real 'SMD')
+    Anulación local; warning
+    @(148,8300 mm, 74,0300 mm): Huella U3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'PCM_Espressif'.
+    Anulación local; error
+    @(119,1400 mm, 64,1000 mm): Huella U1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Riqi_Parts'.
+    Anulación local; error
+    @(154,5200 mm, 66,2700 mm): Huella U4
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Riqi_Parts'.
+    Anulación local; error
+    @(148,8300 mm, 74,0300 mm): Huella U3
+[invalid_outline]: La placa tiene un contorno mal formado (intersecta a sí mismo)
+    Anulación local; error
+    @(204,6000 mm, 115,8000 mm): Segmento en Edge.Cuts
+    @(102,4000 mm, 32,9000 mm): Rectángulo en Edge.Cuts
+[invalid_outline]: La placa tiene un contorno mal formado (intersecta a sí mismo)
+    Anulación local; error
+    @(162,5000 mm, 115,8000 mm): Segmento en Edge.Cuts
+    @(102,4000 mm, 32,9000 mm): Rectángulo en Edge.Cuts
+[invalid_outline]: La placa tiene un contorno mal formado (intersecta a sí mismo)
+    Anulación local; error
+    @(102,4000 mm, 115,8500 mm): Segmento en Edge.Cuts
+    @(102,4000 mm, 79,9500 mm): Segmento en Edge.Cuts
+[silk_over_copper]: Serigrafía recortada por la máscara del soldadura
+    Anulación local; error
+    @(201,4300 mm, 78,6600 mm): Reference field of R12
+[silk_over_copper]: Serigrafía recortada por la máscara del soldadura
+    Anulación local; error
+    @(127,5800 mm, 64,2800 mm): Reference field of U3
+[silk_over_copper]: Serigrafía recortada por la máscara del soldadura
+    Anulación local; error
+    @(108,8050 mm, 75,6750 mm): Reference field of R36
+[silk_over_copper]: Serigrafía recortada por la máscara del soldadura
+    Anulación local; error
+    @(201,4300 mm, 66,0300 mm): Reference field of R19
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(167,8000 mm, 65,7600 mm): Segmento of U5 on F.Silkscreen
+    @(165,4000 mm, 66,3750 mm): Reference field of U12
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(111,2100 mm, 80,2050 mm): Segmento of U4 on F.Silkscreen
+    @(111,8250 mm, 82,6050 mm): Reference field of U15
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(111,8250 mm, 82,6050 mm): Reference field of U15
+    @(111,3500 mm, 81,5000 mm): Reference field of U2
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(111,2100 mm, 80,2050 mm): Segmento of U4 on F.Silkscreen
+    @(111,3500 mm, 81,5000 mm): Reference field of U2
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(108,2475 mm, 75,9123 mm): Segmento of R7 on F.Silkscreen
+    @(108,8050 mm, 75,6750 mm): Reference field of R36
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(174,8125 mm, 90,0625 mm): Reference field of K1
+    @(174,7125 mm, 75,5625 mm): Segmento of K2 on F.Silkscreen
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(201,4300 mm, 66,0300 mm): Reference field of R19
+    @(201,1927 mm, 65,4725 mm): Segmento of R18 on F.Silkscreen
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(201,4300 mm, 78,6600 mm): Reference field of R12
+    @(201,1927 mm, 78,1025 mm): Segmento of R10 on F.Silkscreen
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(185,0000 mm, 65,6150 mm): Reference field of U14
+    @(187,4000 mm, 65,0000 mm): Segmento of U13 on F.Silkscreen
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(147,0000 mm, 44,8500 mm): Reference field of D7
+    @(144,6400 mm, 44,5100 mm): Segmento of D6 on F.Silkscreen
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(196,9000 mm, 81,0650 mm): Segmento of U7 on F.Silkscreen
+    @(194,5000 mm, 81,6800 mm): Reference field of U8
+[silk_overlap]: Solapamiento de serigrafía
+    Regla: restricciones de configuración de placa para serigrafía; error
+    @(194,5000 mm, 69,0500 mm): Reference field of U10
+    @(196,9000 mm, 68,4350 mm): Segmento of U9 on F.Silkscreen
+
+** Found 119 unconnected pads **
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(145,3300 mm, 71,4900 mm): Pad PTH 1 [+3.3V] de U3
+    @(152,0400 mm, 66,2700 mm): Pad 11 [+3.3V] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(112,1500 mm, 72,8500 mm): Pad 2 [+3.3V] de U1 en F.Cu
+    @(127,4375 mm, 76,4500 mm): Pad 2 [+3.3V] de JP1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(127,4375 mm, 76,4500 mm): Pad 2 [+3.3V] de JP1 en F.Cu
+    @(145,3300 mm, 71,4900 mm): Pad PTH 1 [+3.3V] de U3
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(126,1375 mm, 76,4500 mm): Pad 1 [Net-(D6-A1)] de JP1 en F.Cu
+    @(145,5500 mm, 43,5000 mm): Pad 1 [Net-(D6-A1)] de D6 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(122,2500 mm, 110,0000 mm): Pad PTH 5 [/NIVARA_BOARD/RL2_OUTPUT_NC] de J6
+    @(163,3125 mm, 94,4625 mm): Pad PTH 12 [/NIVARA_BOARD/RL2_OUTPUT_NC] de K1
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(117,2000 mm, 65,6000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(117,2000 mm, 67,0000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(118,6000 mm, 64,2000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(118,6000 mm, 65,6000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(120,0000 mm, 64,2000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(118,6000 mm, 64,2000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(118,6000 mm, 65,6000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(118,6000 mm, 67,0000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(120,0000 mm, 65,6000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(118,6000 mm, 65,6000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(120,0000 mm, 67,0000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(118,6000 mm, 67,0000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(117,2000 mm, 67,0000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(118,6000 mm, 67,0000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(117,2000 mm, 64,2000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(117,2000 mm, 65,6000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(148,4500 mm, 43,5000 mm): Pad 2 [GND] de D6 en F.Cu
+    @(148,4500 mm, 46,8500 mm): Pad 2 [GND] de D7 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(121,6375 mm, 77,9500 mm): Pad 4 [GND] de U2 en F.Cu
+    @(124,5500 mm, 80,6375 mm): Pad 6 [GND] de U6 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(148,4500 mm, 39,5000 mm): Pad 2 [GND] de D5 en F.Cu
+    @(148,4500 mm, 43,5000 mm): Pad 2 [GND] de D6 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(115,7950 mm, 79,4550 mm): Pad 3 [GND] de U15 en F.Cu
+    @(110,4800 mm, 79,4550 mm): Pad 3 [GND] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(181,8500 mm, 69,5850 mm): Pad 2 [GND] de U14 en F.Cu
+    @(181,8500 mm, 64,2700 mm): Pad 2 [GND] de U13 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(162,2500 mm, 65,0300 mm): Pad 2 [GND] de U5 en F.Cu
+    @(162,2500 mm, 70,3450 mm): Pad 2 [GND] de U12 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(197,6500 mm, 73,0200 mm): Pad 3 [GND] de U10 en F.Cu
+    @(197,6500 mm, 67,7050 mm): Pad 3 [GND] de U9 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(197,6500 mm, 85,6500 mm): Pad 3 [GND] de U8 en F.Cu
+    @(197,6500 mm, 80,3350 mm): Pad 3 [GND] de U7 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(169,7500 mm, 47,7700 mm): Pad 2 [GND] de U14 en F.Cu
+    @(165,0000 mm, 45,2300 mm): Pad 4 [GND] de U12 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(162,2500 mm, 65,0300 mm): Pad 2 [GND] de U5 en F.Cu
+    @(157,0000 mm, 66,2700 mm): Pad 4 [GND] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(121,6375 mm, 77,9500 mm): Pad 4 [GND] de U2 en F.Cu
+    @(115,7950 mm, 79,4550 mm): Pad 3 [GND] de U15 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(165,0000 mm, 45,2300 mm): Pad 4 [GND] de U12 en F.Cu
+    @(159,0000 mm, 47,7700 mm): Pad 2 [GND] de U12 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(150,5000 mm, 90,7700 mm): Pad 2 [GND] de U5 en F.Cu
+    @(156,5000 mm, 88,2300 mm): Pad 4 [GND] de U5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(110,4800 mm, 79,4550 mm): Pad 3 [GND] de U4 en F.Cu
+    @(110,8800 mm, 72,8500 mm): Pad 1 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(197,6500 mm, 80,3350 mm): Pad 3 [GND] de U7 en F.Cu
+    @(197,6500 mm, 73,0200 mm): Pad 3 [GND] de U10 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(132,7250 mm, 80,3425 mm): Pad 2 [GND] de D3 en F.Cu
+    @(124,5500 mm, 80,6375 mm): Pad 6 [GND] de U6 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(110,8800 mm, 72,8500 mm): Pad 1 [GND] de U1 en F.Cu
+    @(117,2000 mm, 67,0000 mm): Pad 41 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(140,5000 mm, 90,7700 mm): Pad 2 [GND] de U13 en F.Cu
+    @(150,5000 mm, 90,7700 mm): Pad 2 [GND] de U5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(142,7900 mm, 71,4900 mm): Pad PTH 2 [GND] de U3
+    @(145,4200 mm, 81,3200 mm): Pad 3 [GND] de D2 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(159,0000 mm, 47,7700 mm): Pad 2 [GND] de U12 en F.Cu
+    @(148,4500 mm, 46,8500 mm): Pad 2 [GND] de D7 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(140,5000 mm, 90,7700 mm): Pad 2 [GND] de U13 en F.Cu
+    @(145,4200 mm, 81,3200 mm): Pad 3 [GND] de D2 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(117,2000 mm, 64,2000 mm): Pad 41 [GND] de U1 en F.Cu
+    @(110,8800 mm, 55,3500 mm): Pad 40 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(124,5500 mm, 80,6375 mm): Pad 6 [GND] de U6 en F.Cu
+    @(121,8625 mm, 91,5500 mm): Pad 4 [GND] de a2\ en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(132,7250 mm, 80,3425 mm): Pad 2 [GND] de D3 en F.Cu
+    @(145,4200 mm, 81,3200 mm): Pad 3 [GND] de D2 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(125,2500 mm, 39,9825 mm): Pad PTH 2 [GND] de J5
+    @(111,7500 mm, 39,9825 mm): Pad PTH 3 [GND] de J7
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(142,7900 mm, 71,4900 mm): Pad PTH 2 [GND] de U3
+    @(157,0000 mm, 66,2700 mm): Pad 4 [GND] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(111,7500 mm, 39,9825 mm): Pad PTH 3 [GND] de J7
+    @(110,8800 mm, 55,3500 mm): Pad 40 [GND] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(197,6500 mm, 67,7050 mm): Pad 3 [GND] de U9 en F.Cu
+    @(181,8500 mm, 69,5850 mm): Pad 2 [GND] de U14 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(162,2500 mm, 65,0300 mm): Pad 2 [GND] de U5 en F.Cu
+    @(159,0000 mm, 47,7700 mm): Pad 2 [GND] de U12 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(150,5000 mm, 90,7700 mm): Pad 2 [GND] de U5 en F.Cu
+    @(151,5000 mm, 110,0175 mm): Pad PTH 4 [GND] de J3
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(162,2500 mm, 65,0300 mm): Pad 2 [GND] de U5 en F.Cu
+    @(181,8500 mm, 64,2700 mm): Pad 2 [GND] de U13 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(151,5000 mm, 110,0175 mm): Pad PTH 4 [GND] de J3
+    @(179,5000 mm, 109,7675 mm): Pad PTH 4 [GND] de J12
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(108,2500 mm, 110,0000 mm): Pad PTH 1 [/NIVARA_BOARD/RL1_OUTPUT_NO] de J6
+    @(177,3125 mm, 101,4625 mm): Pad PTH 14 [/NIVARA_BOARD/RL1_OUTPUT_NO] de K2
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(132,7250 mm, 83,2425 mm): Pad 1 [/NIVARA_BOARD/VOLTAGE_AOUTPUT] de D3 en F.Cu
+    @(169,0000 mm, 109,7675 mm): Pad PTH 1 [/NIVARA_BOARD/VOLTAGE_AOUTPUT] de J12
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(107,7250 mm, 76,5000 mm): Pad 1 [/NIVARA_BOARD/NPN_DINPUT_1] de R7 en F.Cu
+    @(134,7500 mm, 109,7500 mm): Pad PTH 2 [/NIVARA_BOARD/NPN_DINPUT_1] de J1
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(120,5500 mm, 85,9125 mm): Pad 1 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U6 en F.Cu
+    @(121,5500 mm, 85,9125 mm): Pad 2 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U6 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(121,0400 mm, 72,8500 mm): Pad 9 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U1 en F.Cu
+    @(119,7700 mm, 72,8500 mm): Pad 8 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(121,0400 mm, 72,8500 mm): Pad 9 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U1 en F.Cu
+    @(120,5500 mm, 85,9125 mm): Pad 1 [/NIVARA_BOARD/VOLTAGE_AOUT_INTERFAZ/SCLK] de U6 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(110,2350 mm, 76,5000 mm): Pad 1 [/NIVARA_BOARD/NPN_DINPUT_0] de R36 en F.Cu
+    @(131,2500 mm, 109,7500 mm): Pad PTH 1 [/NIVARA_BOARD/NPN_DINPUT_0] de J1
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(119,3625 mm, 77,0000 mm): Pad 2 [VCC] de U2 en F.Cu
+    @(119,3625 mm, 77,9500 mm): Pad 3 [VCC] de U2 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(124,1375 mm, 91,5500 mm): Pad 3 [VCC] de a2\ en F.Cu
+    @(124,1375 mm, 92,5000 mm): Pad 2 [VCC] de a2\ en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(200,6050 mm, 80,0900 mm): Pad 1 [VCC] de R12 en F.Cu
+    @(200,6050 mm, 77,5800 mm): Pad 1 [VCC] de R10 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(152,0400 mm, 62,4600 mm): Pad 8 [VCC] de U4 en F.Cu
+    @(157,0000 mm, 62,4600 mm): Pad 7 [VCC] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(152,0400 mm, 70,0800 mm): Pad 14 [VCC] de U4 en F.Cu
+    @(157,0000 mm, 70,0800 mm): Pad 1 [VCC] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(124,5500 mm, 85,9125 mm): Pad 5 [VCC] de U6 en F.Cu
+    @(124,1375 mm, 91,5500 mm): Pad 3 [VCC] de a2\ en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(157,0000 mm, 62,4600 mm): Pad 7 [VCC] de U4 en F.Cu
+    @(157,0000 mm, 70,0800 mm): Pad 1 [VCC] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(124,5500 mm, 85,9125 mm): Pad 5 [VCC] de U6 en F.Cu
+    @(119,3625 mm, 77,9500 mm): Pad 3 [VCC] de U2 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(163,3125 mm, 77,9625 mm): Pad PTH A1 [VCC] de K1
+    @(157,0000 mm, 70,0800 mm): Pad 1 [VCC] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(163,3125 mm, 77,9625 mm): Pad PTH A1 [VCC] de K1
+    @(177,3125 mm, 77,9625 mm): Pad PTH A1 [VCC] de K2
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(145,5500 mm, 46,8500 mm): Pad 1 [VCC] de D7 en F.Cu
+    @(152,0400 mm, 62,4600 mm): Pad 8 [VCC] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(146,5000 mm, 90,7700 mm): Pad 3 [VCC] de U13 en F.Cu
+    @(163,3125 mm, 77,9625 mm): Pad PTH A1 [VCC] de K1
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(124,1375 mm, 91,5500 mm): Pad 3 [VCC] de a2\ en F.Cu
+    @(146,5000 mm, 90,7700 mm): Pad 3 [VCC] de U13 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(177,3125 mm, 77,9625 mm): Pad PTH A1 [VCC] de K2
+    @(200,6050 mm, 77,5800 mm): Pad 1 [VCC] de R10 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(157,0000 mm, 62,4600 mm): Pad 7 [VCC] de U4 en F.Cu
+    @(175,7500 mm, 47,7700 mm): Pad 3 [VCC] de U14 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(121,6375 mm, 77,0000 mm): Pad 5 [Net-(U2-SW)] de U2 en F.Cu
+    @(121,8625 mm, 92,5000 mm): Pad 5 [Net-(U2-SW)] de a2\ en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(121,6375 mm, 76,0500 mm): Pad 6 [Net-(U2-BST)] de U2 en F.Cu
+    @(121,8625 mm, 93,4500 mm): Pad 6 [Net-(U2-BST)] de a2\ en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(115,2500 mm, 39,9825 mm): Pad PTH 2 [/NIVARA_BOARD/RS485_B] de J7
+    @(146,3700 mm, 83,1950 mm): Pad 2 [/NIVARA_BOARD/RS485_B] de D2 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(118,7500 mm, 39,9825 mm): Pad PTH 1 [/NIVARA_BOARD/RS485_A] de J7
+    @(144,4700 mm, 83,1950 mm): Pad 1 [/NIVARA_BOARD/RS485_A] de D2 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(152,0400 mm, 63,7300 mm): Pad 9 [Net-(K1-PadA1)] de U4 en F.Cu
+    @(152,0400 mm, 65,0000 mm): Pad 10 [Net-(K1-PadA1)] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(118,7500 mm, 110,0000 mm): Pad PTH 4 [/NIVARA_BOARD/RL2_OUTPUT_NO] de J6
+    @(163,3125 mm, 101,4625 mm): Pad PTH 14 [/NIVARA_BOARD/RL2_OUTPUT_NO] de K1
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(125,7500 mm, 110,0000 mm): Pad PTH 6 [/NIVARA_BOARD/RL2_COM] de J6
+    @(170,8125 mm, 97,9625 mm): Pad PTH 11 [/NIVARA_BOARD/RL2_COM] de K1
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(111,7500 mm, 110,0000 mm): Pad PTH 2 [/NIVARA_BOARD/RL1_OUTPUT_NC] de J6
+    @(177,3125 mm, 94,4625 mm): Pad PTH 12 [/NIVARA_BOARD/RL1_OUTPUT_NC] de K2
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(152,0400 mm, 67,5400 mm): Pad 12 [Net-(K2-PadA1)] de U4 en F.Cu
+    @(152,0400 mm, 68,8100 mm): Pad 13 [Net-(K2-PadA1)] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(115,2500 mm, 110,0000 mm): Pad PTH 3 [/NIVARA_BOARD/RL1_COM] de J6
+    @(184,8125 mm, 97,9625 mm): Pad PTH 11 [/NIVARA_BOARD/RL1_COM] de K2
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(158,7500 mm, 110,0000 mm): Pad PTH 1 [/NIVARA_BOARD/PNP_DINPUT_0] de J2
+    @(200,6050 mm, 64,9500 mm): Pad 1 [/NIVARA_BOARD/PNP_DINPUT_0] de R18 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(162,2500 mm, 110,0000 mm): Pad PTH 2 [/NIVARA_BOARD/PNP_DINPUT_1] de J2
+    @(200,6050 mm, 67,4600 mm): Pad 1 [/NIVARA_BOARD/PNP_DINPUT_1] de R19 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(112,1500 mm, 55,3500 mm): Pad 39 [/NIVARA_BOARD/mA_AINPUT] de U1 en F.Cu
+    @(148,0000 mm, 110,0175 mm): Pad PTH 3 [/NIVARA_BOARD/mA_AINPUT] de J3
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(189,0000 mm, 110,0000 mm): Pad PTH 2 [/NIVARA_BOARD/DRY_DINPUT_1] de J4
+    @(191,3500 mm, 85,6500 mm): Pad 2 [/NIVARA_BOARD/DRY_DINPUT_1] de U8 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(185,5000 mm, 110,0000 mm): Pad PTH 1 [/NIVARA_BOARD/DRY_DINPUT_0] de J4
+    @(191,3500 mm, 80,3350 mm): Pad 2 [/NIVARA_BOARD/DRY_DINPUT_0] de U7 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(124,8500 mm, 55,3500 mm): Pad 29 [/NIVARA_BOARD/~{RUN}/STOP] de U1 en F.Cu
+    @(128,7500 mm, 39,9825 mm): Pad PTH 1 [/NIVARA_BOARD/~{RUN}/STOP] de J5
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(128,8500 mm, 91,0000 mm): Pad 2 [/NIVARA_BOARD/NPN_DOUTPUT_0] de Q1 en F.Cu
+    @(135,1500 mm, 91,0000 mm): Pad 4 [/NIVARA_BOARD/NPN_DOUTPUT_0] de Q1 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(135,1500 mm, 91,0000 mm): Pad 4 [/NIVARA_BOARD/NPN_DOUTPUT_0] de Q1 en F.Cu
+    @(156,5000 mm, 90,7700 mm): Pad 3 [/NIVARA_BOARD/NPN_DOUTPUT_0] de U5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(165,0000 mm, 47,7700 mm): Pad 3 [/NIVARA_BOARD/NPN_DOUTPUT_0] de U12 en F.Cu
+    @(139,0000 mm, 39,9825 mm): Pad PTH 1 [/NIVARA_BOARD/NPN_DOUTPUT_0] de J9
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(156,5000 mm, 90,7700 mm): Pad 3 [/NIVARA_BOARD/NPN_DOUTPUT_0] de U5 en F.Cu
+    @(165,0000 mm, 47,7700 mm): Pad 3 [/NIVARA_BOARD/NPN_DOUTPUT_0] de U12 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(151,3500 mm, 55,7500 mm): Pad 2 [/NIVARA_BOARD/NPN_DOUTPUT_1] de Q3 en F.Cu
+    @(157,6500 mm, 55,7500 mm): Pad 4 [/NIVARA_BOARD/NPN_DOUTPUT_1] de Q3 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(135,5000 mm, 39,9825 mm): Pad PTH 2 [/NIVARA_BOARD/NPN_DOUTPUT_1] de J9
+    @(151,3500 mm, 55,7500 mm): Pad 2 [/NIVARA_BOARD/NPN_DOUTPUT_1] de Q3 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(191,3500 mm, 57,5700 mm): Pad 2 [/NIVARA_BOARD/PNP_DOUTPUT_1] de Q5 en F.Cu
+    @(197,6500 mm, 57,5700 mm): Pad 4 [/NIVARA_BOARD/PNP_DOUTPUT_1] de Q5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(175,7500 mm, 45,2300 mm): Pad 4 [/NIVARA_BOARD/PNP_DOUTPUT_1] de U14 en F.Cu
+    @(191,3500 mm, 57,5700 mm): Pad 2 [/NIVARA_BOARD/PNP_DOUTPUT_1] de Q5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(199,7500 mm, 110,0000 mm): Pad PTH 2 [/NIVARA_BOARD/PNP_DOUTPUT_1] de J10
+    @(197,6500 mm, 57,5700 mm): Pad 4 [/NIVARA_BOARD/PNP_DOUTPUT_1] de Q5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(178,3000 mm, 65,4500 mm): Pad 4 [/NIVARA_BOARD/PNP_DOUTPUT_0] de Q4 en F.Cu
+    @(172,0000 mm, 65,4500 mm): Pad 2 [/NIVARA_BOARD/PNP_DOUTPUT_0] de Q4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(172,0000 mm, 65,4500 mm): Pad 2 [/NIVARA_BOARD/PNP_DOUTPUT_0] de Q4 en F.Cu
+    @(146,5000 mm, 88,2300 mm): Pad 4 [/NIVARA_BOARD/PNP_DOUTPUT_0] de U13 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(196,2500 mm, 110,0000 mm): Pad PTH 1 [/NIVARA_BOARD/PNP_DOUTPUT_0] de J10
+    @(178,3000 mm, 65,4500 mm): Pad 4 [/NIVARA_BOARD/PNP_DOUTPUT_0] de Q4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(131,4200 mm, 49,0000 mm): Pad PTH 1 [/NIVARA_BOARD/mA_AOUTPUT+] de D4
+    @(172,5000 mm, 109,7675 mm): Pad PTH 2 [/NIVARA_BOARD/mA_AOUTPUT+] de J12
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(128,8500 mm, 93,3000 mm): Pad 3 [NPNOUT_GND] de Q1 en F.Cu
+    @(151,3500 mm, 58,0500 mm): Pad 3 [NPNOUT_GND] de Q3 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(128,8500 mm, 88,7000 mm): Pad 1 [Net-(Q1-G)] de Q1 en F.Cu
+    @(168,5500 mm, 65,0300 mm): Pad 3 [Net-(Q1-G)] de U5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(151,3500 mm, 53,4500 mm): Pad 1 [Net-(Q3-G)] de Q3 en F.Cu
+    @(168,5500 mm, 70,3450 mm): Pad 3 [Net-(Q3-G)] de U12 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(188,1500 mm, 64,2700 mm): Pad 3 [PNPOUT_GND] de U13 en F.Cu
+    @(191,3500 mm, 59,8700 mm): Pad 3 [PNPOUT_GND] de Q5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(172,0000 mm, 67,7500 mm): Pad 3 [PNPOUT_GND] de Q4 en F.Cu
+    @(188,1500 mm, 64,2700 mm): Pad 3 [PNPOUT_GND] de U13 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(188,1500 mm, 69,5850 mm): Pad 3 [Net-(Q5-G)] de U14 en F.Cu
+    @(191,3500 mm, 55,2700 mm): Pad 1 [Net-(Q5-G)] de Q5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(107,7250 mm, 74,8500 mm): Pad 2 [Net-(R7-Pad2)] de R7 en F.Cu
+    @(107,9400 mm, 85,7550 mm): Pad 1 [Net-(R7-Pad2)] de U4 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(191,3500 mm, 77,7950 mm): Pad 1 [Net-(R10-Pad2)] de U7 en F.Cu
+    @(202,2550 mm, 77,5800 mm): Pad 2 [Net-(R10-Pad2)] de R10 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(191,3500 mm, 83,1100 mm): Pad 1 [Net-(R12-Pad2)] de U8 en F.Cu
+    @(202,2550 mm, 80,0900 mm): Pad 2 [Net-(R12-Pad2)] de R12 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(191,3500 mm, 65,1650 mm): Pad 1 [Net-(R18-Pad2)] de U9 en F.Cu
+    @(202,2550 mm, 64,9500 mm): Pad 2 [Net-(R18-Pad2)] de R18 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(191,3500 mm, 70,4800 mm): Pad 1 [Net-(R19-Pad2)] de U10 en F.Cu
+    @(202,2550 mm, 67,4600 mm): Pad 2 [Net-(R19-Pad2)] de R19 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(110,2350 mm, 74,8500 mm): Pad 2 [Net-(R36-Pad2)] de R36 en F.Cu
+    @(113,2550 mm, 85,7550 mm): Pad 1 [Net-(R36-Pad2)] de U15 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(110,4800 mm, 85,7550 mm): Pad 2 [NPNIN_GND] de U4 en F.Cu
+    @(115,7950 mm, 85,7550 mm): Pad 2 [NPNIN_GND] de U15 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(159,0000 mm, 45,2300 mm): Pad 1 [Net-(R26-Pad2)] de U12 en F.Cu
+    @(162,2500 mm, 62,4900 mm): Pad 1 [Net-(R26-Pad2)] de U5 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(168,5500 mm, 62,4900 mm): Pad 4 [NPN_VCC] de U5 en F.Cu
+    @(168,5500 mm, 67,8050 mm): Pad 4 [NPN_VCC] de U12 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(124,8500 mm, 72,8500 mm): Pad 12 [/NIVARA_BOARD/PNP_IN_Mod/NPN_Output0] de U1 en F.Cu
+    @(197,6500 mm, 65,1650 mm): Pad 4 [/NIVARA_BOARD/PNP_IN_Mod/NPN_Output0] de U9 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(191,3500 mm, 67,7050 mm): Pad 2 [PNPIN_GND] de U9 en F.Cu
+    @(191,3500 mm, 73,0200 mm): Pad 2 [PNPIN_GND] de U10 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(128,6400 mm, 68,5450 mm): Pad 17 [/NIVARA_BOARD/PNP_IN_Mod/NPN_Output1] de U1 en F.Cu
+    @(197,6500 mm, 70,4800 mm): Pad 4 [/NIVARA_BOARD/PNP_IN_Mod/NPN_Output1] de U10 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(140,5000 mm, 88,2300 mm): Pad 1 [Net-(R29-Pad2)] de U13 en F.Cu
+    @(181,8500 mm, 61,7300 mm): Pad 1 [Net-(R29-Pad2)] de U13 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(128,6400 mm, 58,3850 mm): Pad 25 [/NIVARA_BOARD/RS485_INTERFAZ/UART_RX] de U1 en F.Cu
+    @(137,7100 mm, 71,4900 mm): Pad PTH 4 [/NIVARA_BOARD/RS485_INTERFAZ/UART_RX] de U3
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(128,6400 mm, 59,6550 mm): Pad 24 [/NIVARA_BOARD/RS485_INTERFAZ/UART_TX] de U1 en F.Cu
+    @(140,2500 mm, 71,4900 mm): Pad PTH 3 [/NIVARA_BOARD/RS485_INTERFAZ/UART_TX] de U3
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(128,6400 mm, 67,2750 mm): Pad 18 [/NIVARA_BOARD/DRY_INPUT_INTERFAZ/DRY_OUT0] de U1 en F.Cu
+    @(197,6500 mm, 77,7950 mm): Pad 4 [/NIVARA_BOARD/DRY_INPUT_INTERFAZ/DRY_OUT0] de U7 en F.Cu
+[unconnected_items]: Conexión faltante entre elementos
+    Anulación local; error
+    @(128,6400 mm, 60,9250 mm): Pad 23 [/NIVARA_BOARD/DRY_INPUT_INTERFAZ/DRY_OUT1] de U1 en F.Cu
+    @(197,6500 mm, 83,1100 mm): Pad 4 [/NIVARA_BOARD/DRY_INPUT_INTERFAZ/DRY_OUT1] de U8 en F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **
